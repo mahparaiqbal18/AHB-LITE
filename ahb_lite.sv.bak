@@ -61,7 +61,7 @@ module ahblite#
    'b111: hburst = 'INCR16';
   endcase
 
-  always # 10 HCLK = ~HCLK;
+  always # 10 HCLK = ~CLK;
 
   HADDR = 0x24;
   always (@posedge clk) HADDR += 0x4
