@@ -1,0 +1,26 @@
+C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv {2 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv(1): (vlog-13304) Invalid use of Verilog config keyword 'include' found.
+-- Compiling package generator_sv_unit
+
+Top level modules:
+	--none--
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv {2 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv(1): (vlog-13304) Invalid use of Verilog config keyword 'include' found.
+-- Compiling package driver_sv_unit
+
+Top level modules:
+	--none--
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface ahb_lite
+-- Compiling interface wrapper
+-- Compiling module wrap
+
+Top level modules:
+	wrap
+
+} {} {}}
