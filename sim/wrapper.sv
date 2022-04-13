@@ -1,7 +1,7 @@
 interface ahb_lite(input bit HCLK, HRESETn);
 
  logic [31:0]HADDR;
- logic [2:0]HBURST; // 'b000 = SINGLE
+ logic [2:0]HBURST;     // 'b000 = SINGLE
                         // 'b001 = INCR
                         // 'b010 = WRAP4
                         // 'b011 = INCR4
@@ -11,7 +11,7 @@ interface ahb_lite(input bit HCLK, HRESETn);
                         // 'b111 = INCR16
  logic HMASTLOCK;
  logic [3:0]HPROT;
- logic [2:0]HSIZE;  // 'b000 = bit [7:0]    transfer_size
+ logic [2:0]HSIZE;      // 'b000 = bit [7:0]    transfer_size
                         // 'b001 = bit [15:0]   transfer_size
                         // 'b010 = bit [31:0]   transfer_size
                         // 'b011 = bit [63:0]   transfer_size
@@ -19,7 +19,7 @@ interface ahb_lite(input bit HCLK, HRESETn);
                         // 'b101 = bit [255:0]  transfer_size
                         // 'b110 = bit [511:0]  transfer_size
                         // 'b111 = bit [1023:0] transfer_size
- logic [1:0]HTRANS; // 'b00 = IDLE
+ logic [1:0]HTRANS;     // 'b00 = IDLE
                         // 'b01 = BUSY
                         // 'b10 = NONSEQ
                         // 'b11 = SEQ
