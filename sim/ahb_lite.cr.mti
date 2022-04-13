@@ -1,8 +1,0 @@
-C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv
-QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
--- Compiling package transaction_sv_unit
-
-Top level modules:
-	--none--
-
-} {} {}}
