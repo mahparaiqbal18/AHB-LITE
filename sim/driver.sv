@@ -1,11 +1,11 @@
-include "transaction.sv";
+//`include "transaction.sv"
 
 class driver;
 
- virtual ahb_lite driver_if;
+ virtual ahb_lite.master driver_if;
  mailbox gen2driv;
 
- function new(virtual ahb_lite driver_if, mailbox gen2driv);
+ function new(virtual ahb_lite.master driver_if, mailbox gen2driv);
   this.driver_if = driver_if;
   this.gen2driv= gen2driv;
  endfunction

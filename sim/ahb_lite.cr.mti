@@ -1,8 +1,133 @@
-C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv
+C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1rw_generic.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1rw_generic.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module rl_ram_1rw_generic
+
+Top level modules:
+	rl_ram_1rw_generic
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv {0 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Error: (vlog-13004) environment.sv(9.1): syntax error, unexpected type name. The type 'mailbox' is defined at verilog_src/std/std.sv(19).
+
+} {3.0 4.0} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ahb3lite_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_queue.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_queue.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module rl_queue
+
+Top level modules:
+	rl_queue
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_easic_n3x.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_easic_n3x.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module rl_ram_1r1w_easic_n3x
+
+Top level modules:
+	rl_ram_1r1w_easic_n3x
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv {0 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Error: (vlog-13069) C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv(27): near ";": syntax error, unexpected ';', expecting '('.
+** Error: (vlog-13069) C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv(44): near ";": syntax error, unexpected ';', expecting '('.
+
+} {3.0 5.0} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module rl_ram_1r1w_lattice
+-- Compiling module pmi_ram_dp_be
+
+Top level modules:
+	rl_ram_1r1w_lattice
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv {0 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Error: (vlog-13004) C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(9.1): syntax error, unexpected type name. The type 'mailbox' is defined at verilog_src/std/std.sv(19).
+
+} {3.0 4.0} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling package transaction_sv_unit
 
 Top level modules:
 	--none--
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1rw.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1rw.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module rl_ram_1rw
+
+Top level modules:
+	rl_ram_1rw
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_easic_n3xs.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_easic_n3xs.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module rl_ram_1r1w_easic_n3xs
+
+Top level modules:
+	rl_ram_1r1w_easic_n3xs
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv {2 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ahb3lite_pkg
+** Warning: C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv(70): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv(389): (vlog-2284) Empty $unit scope found.
+-- Compiling package ahb3lite_sram1rw_sv_unit
+-- Compiling module ahb3lite_sram1rw
+-- Importing package ahb3lite_pkg
+** Warning: C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv(371): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv(373): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+
+Top level modules:
+	ahb3lite_sram1rw
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1rw_easic_n3x.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1rw_easic_n3x.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module rl_ram_1rw_easic_n3x
+
+Top level modules:
+	rl_ram_1rw_easic_n3x
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_generic.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_generic.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module rl_ram_1r1w_generic
+
+Top level modules:
+	rl_ram_1r1w_generic
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/scoreboard.sv {0 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/scoreboard.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/scoreboard.sv(6): Invalid type 'transaction'. Please check the type of the variable 'tr'.
+
+} {3.0 4.0} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv {0 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv(6): (vlog-2294) The 'var' keyword is missing.
+** Error: (vlog-13069) C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv(6): near "tr": syntax error, unexpected IDENTIFIER, expecting ';' or ','.
+
+} {3.0 5.0} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module rl_ram_1r1w
+
+Top level modules:
+	rl_ram_1r1w
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv {0 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Error: (vlog-13004) environment.sv(9.1): syntax error, unexpected type name. The type 'mailbox' is defined at verilog_src/std/std.sv(19).
+
+} {3.0 4.0} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv {0 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv(8): Invalid type 'transaction'. Please check the type of the variable 'tr'.
+** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv(19): (vlog-2730) Undefined variable: 'tr'.
+
+} {3.0 5.0} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface ahb_lite
+-- Compiling interface wrapper
+-- Compiling module wrap
+
+Top level modules:
+	wrap
 
 } {} {}}

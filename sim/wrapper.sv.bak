@@ -1,3 +1,4 @@
+
 interface ahb_lite(input bit HCLK, HRESETn);
 
  logic [31:0]HADDR;
@@ -11,7 +12,7 @@ interface ahb_lite(input bit HCLK, HRESETn);
                         // 'b111 = INCR16
  logic HMASTLOCK;
  logic [3:0]HPROT;
- logic [2:0]HSIZE;  // 'b000 = bit [7:0]    transfer_size
+ logic [2:0]HSIZE;      // 'b000 = bit [7:0]    transfer_size
                         // 'b001 = bit [15:0]   transfer_size
                         // 'b010 = bit [31:0]   transfer_size
                         // 'b011 = bit [63:0]   transfer_size
@@ -32,13 +33,13 @@ interface ahb_lite(input bit HCLK, HRESETn);
  logic HREADY;
 
  modport slave(input HADDR, HBURST, HMASTLOCK, HPROT, HSIZE, 
- HTRANS, HWDATA, HWRITE, HSEL, output HRDATA, HREADYOUT, HRESP);
+ HTRANS, HWDATA, HWRITE, HSEL, output HRDATA, HREADYOUT, HRESP); //DUT
 
  modport master(input HCLK, HRESETn, HRDATA, HREADY, HRESP, output HADDR, 
- HBURST, HMASTLOCK, HPROT, HSIZE, HTRANS, HWDATA, HWRITE, HSEL);
+ HBURST, HMASTLOCK, HPROT, HSIZE, HTRANS, HWDATA, HWRITE, HSEL); //Driver
 
  modport mon(input HRESETn, HADDR, HBURST, HMASTLOCK, HPROT, HSIZE, 
- HTRANS, HWDATA, HSEL, HRDATA, HREADYOUT, HRESP);
+ HTRANS, HWDATA, HSEL, HRDATA, HREADYOUT, HRESP);               //Monitor
 
 
 endinterface
