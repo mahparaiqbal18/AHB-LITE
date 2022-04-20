@@ -1,8 +1,10 @@
-//`include "transaction.sv"
+`ifndef include_n
+`include "transaction.sv"
+`endif
 
 class scoreboard;
 
- mailbox mon2scb;
+ mailbox #(transaction) mon2scb;
  transaction tr;
  logic [31:0]memory[int];
  int tr_count;

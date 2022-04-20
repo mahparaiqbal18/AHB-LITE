@@ -1,14 +1,15 @@
-/*`include "wrapper.sv"
-`include "transaction.sv"*/
+`ifndef include_n
+`include "transaction.sv"
+`endif
 
 class monitor;
 
- mailbox mon2scb;
+ mailbox #(transaction) mon2scb;
  virtual interface ahb_lite.mon mon_inf;
  transaction tr;
  event receive;
 
- function new(virtual ahb_lite.mon mon_inf, mailbox mon2scb);
+ function new(virtual ahb_lite.mon mon_inf, mailbox #(transaction) mon2scb);
   this.mon_inf = mon_inf;
   this.mon2scb = mon2scb;
  endfunction
@@ -27,7 +28,7 @@ class monitor;
      @(posedge monitor_if.HCLK)
      tr.HWDATA	<= monitor_if.HWDATA;
     end
-    mon2scb.tr.put(tr);
+    mon2scb.put(tr);
     ->receive;
    end
   end

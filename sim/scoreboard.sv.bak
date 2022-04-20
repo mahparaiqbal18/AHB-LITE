@@ -1,4 +1,6 @@
+`ifndef include_n
 `include "transaction.sv"
+`endif
 
 class scoreboard;
 

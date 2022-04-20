@@ -1,13 +1,17 @@
-`include "transaction.sv";
-`include "generator.sv";
-`include "driver.sv";
-`include "monitor.sv";
-`include "scoreboard.sv";
+`ifdef 
+`define include_n
+`include "transaction.sv"
+`endif
 
-class environment
+`include "driver.sv"
+`include "generator.sv"
+`include "monitor.sv"
+`include "scoreboard.sv"
 
- mailbox gen_driv;
- mailbox mon_scb;
+class environment;
+
+ mailbox #(transaction) gen_driv;
+ mailbox #(transaction) mon_scb;
 
  generator gen;
  driver driv;
@@ -18,12 +22,12 @@ class environment
 
  function new(virtual interface ahb_lite inf);
   this.inf = inf;
-  this.gen_driv = new();
-  this.mon_scb  = new();
-  this.gen      = new(gen_driv);
-  this.driv     = new(gen_driv, inf);
-  this.mon      = new(mon_scb, inf);
-  this.scb      = new(mon_scb);
+  gen_driv = new();
+  mon_scb  = new();
+  gen      = new(gen_driv);
+  driv     = new(gen_driv, inf);
+  mon      = new(mon_scb, inf);
+  scb      = new(mon_scb);
  endfunction
 
  task before_test();
@@ -40,7 +44,7 @@ class environment
  endtask
 
  task after_test();
-  wait(gen.count == 1000);
+  wait(gen.tr_count == 1000);
   wait(scb.tr_count == 1000);
  endtask
 

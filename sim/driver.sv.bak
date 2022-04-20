@@ -1,9 +1,11 @@
+/*`ifndef include_n
 `include "transaction.sv"
-
+`endif*/
 class driver;
 
  virtual ahb_lite.master driver_if;
  mailbox gen2driv;
+ event complete;
 
  function new(virtual ahb_lite.master driver_if, mailbox gen2driv);
   this.driver_if = driver_if;
@@ -23,7 +25,7 @@ class driver;
   driver_if.HREADY <= 0;
  endtask
 
- task write();
+ task drive();
   transaction tr;
   gen2driv.get(tr);
   if(driver_if.HREADYOUT && !driver_if.HRESP)begin
@@ -32,33 +34,19 @@ class driver;
    driver_if.HPROT  <= tr.HPROT;
    driver_if.HSIZE  <= tr.HSIZE;
    driver_if.HTRANS <= tr.HTRANS;
-   driver_if.HWDATA <= 0;
-   driver_if.HWRITE <= 1; 
+   driver_if.HWRITE <= tr.HWRITE; 
    driver_if.HREADY <= 1;
+   driver_if.HSEL   <= 1;
    @(posedge driver_if.HCLK)
     driver_if.HWDATA <= tr.HWDATA;
-  end
- endtask
-
- task read();
-  transaction tr;
-  gen2driv.get(tr);
-  if(driver_if.HREADYOUT && !driver_if.HRESP)begin
-   driver_if.HADDR  <= tr.HADDR;
-   driver_if.HBURST <= tr.HBURST;
-   driver_if.HPROT  <= tr.HPROT;
-   driver_if.HSIZE  <= tr.HSIZE;
-   driver_if.HTRANS <= tr.HTRANS;
-   driver_if.HWDATA <= 0;
-   driver_if.HWRITE <= 0; 
-   driver_if.HREADY <= 1;
+    -> complete;
   end
  endtask
 
  task run;
-  reset();
-  write();
-  read();
+  forever begin
+   drive();
+  end
  endtask
 
 endclass
