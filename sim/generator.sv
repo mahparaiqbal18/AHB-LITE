@@ -1,6 +1,6 @@
-`ifndef include_n
-`include "transaction.sv"
-`endif
+package gen;
+
+import trans::transaction;
 
 class generator;
 
@@ -211,17 +211,17 @@ class generator;
   byte_sized_incr8_burst_read();
   byte_sized_incr16_burst_read();
 
-  half_word_sized_single_burst_write();
-  half_word_sized_incr_burst_write();
-  half_word_sized_incr4_burst_write();
-  half_word_sized_incr8_burst_write();
-  half_word_sized_incr16_burst_write();
+  halfword_sized_single_burst_write();
+  halfword_sized_incr_burst_write();
+  halfword_sized_incr4_burst_write();
+  halfword_sized_incr8_burst_write();
+  halfword_sized_incr16_burst_write();
 
-  half_word_sized_single_burst_read();
-  half_word_sized_incr_burst_read();
-  half_word_sized_incr4_burst_read();
-  half_word_sized_incr8_burst_read();
-  half_word_sized_incr16_burst_read();
+  halfword_sized_single_burst_read();
+  halfword_sized_incr_burst_read();
+  halfword_sized_incr4_burst_read();
+  halfword_sized_incr8_burst_read();
+  halfword_sized_incr16_burst_read();
 
   word_sized_single_burst_write();
   word_sized_incr_burst_write();
@@ -237,3 +237,5 @@ class generator;
  endtask
 
 endclass
+
+endpackage

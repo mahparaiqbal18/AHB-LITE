@@ -1,3 +1,5 @@
+package trans;
+
 class transaction;
 	logic	[1:0]	HTRANS;
  	logic	[2:0]  	HSIZE;
@@ -12,3 +14,5 @@ class transaction;
         bit             HRESETn;
 	bit             HSEL;
 endclass
+
+endpackage

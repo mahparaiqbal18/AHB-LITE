@@ -1,6 +1,6 @@
-/*`ifndef include_n
+`ifndef include_n
 `include "transaction.sv"
-`endif*/
+`endif
 class driver;
 
  virtual ahb_lite.master driver_if;

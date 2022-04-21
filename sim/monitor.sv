@@ -1,6 +1,6 @@
-`ifndef include_n
-`include "transaction.sv"
-`endif
+package mon;
+
+ import trans::transaction;
 
 class monitor;
 
@@ -25,8 +25,8 @@ class monitor;
     tr.HTRANS    = mon_inf.HTRANS;
     tr.HWDATA    = mon_inf.HWDATA;
     if(mon_inf.HWRITE)begin
-     @(posedge monitor_if.HCLK)
-     tr.HWDATA	<= monitor_if.HWDATA;
+     @(posedge mon_inf.HCLK)
+     tr.HWDATA	<= mon_inf.HWDATA;
     end
     mon2scb.put(tr);
     ->receive;
@@ -35,3 +35,5 @@ class monitor;
  endtask
 
 endclass
+
+endpackage

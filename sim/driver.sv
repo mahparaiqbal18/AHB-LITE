@@ -1,6 +1,7 @@
-`ifndef include_n
-`include "transaction.sv"
-`endif
+package driv;
+
+ import trans::transaction;
+
 class driver;
 
  virtual ahb_lite.master driver_if;
@@ -50,3 +51,5 @@ class driver;
  endtask
 
 endclass
+
+endpackage

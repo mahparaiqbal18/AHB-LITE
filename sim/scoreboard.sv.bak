@@ -1,10 +1,10 @@
-`ifndef include_n
-`include "transaction.sv"
-`endif
+package scb;
+
+ import trans::transaction;
 
 class scoreboard;
 
- mailbox mon2scb;
+ mailbox #(transaction) mon2scb;
  transaction tr;
  logic [31:0]memory[int];
  int tr_count;
@@ -29,3 +29,5 @@ class scoreboard;
  endtask
 
 endclass
+
+endpackage

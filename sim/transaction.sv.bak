@@ -11,7 +11,4 @@ class transaction;
 	logic 	[31:0] 	HRDATA;
         bit             HRESETn;
 	bit             HSEL;
-
- transaction tr;
-
 endclass

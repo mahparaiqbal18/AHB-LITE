@@ -1,12 +1,8 @@
-`ifdef 
-`define include_n
-`include "transaction.sv"
-`endif
-
-`include "driver.sv"
-`include "generator.sv"
-`include "monitor.sv"
-`include "scoreboard.sv"
+import trans::transaction;
+import gen::generator;
+import driv::driver;
+import mon::monitor;
+import scb::scoreboard;
 
 class environment;
 
@@ -25,8 +21,8 @@ class environment;
   gen_driv = new();
   mon_scb  = new();
   gen      = new(gen_driv);
-  driv     = new(gen_driv, inf);
-  mon      = new(mon_scb, inf);
+  driv     = new(inf, gen_driv);
+  mon      = new(inf, mon_scb);
   scb      = new(mon_scb);
  endfunction
 

@@ -1,6 +1,6 @@
-`ifndef include_n
-`include "transaction.sv"
-`endif
+package scb;
+
+ import trans::transaction;
 
 class scoreboard;
 
@@ -9,6 +9,10 @@ class scoreboard;
  logic [31:0]memory[int];
  int tr_count;
  int error_count;
+
+ function new (mailbox#(transaction) mon2scb);
+  this.mon2scb = mon2scb;
+ endfunction
 
  task run();
   forever begin
@@ -29,3 +33,5 @@ class scoreboard;
  endtask
 
 endclass
+
+endpackage

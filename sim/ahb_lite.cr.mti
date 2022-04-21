@@ -41,6 +41,14 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 Top level modules:
 	rl_queue
 
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package driv
+-- Importing package trans
+
+Top level modules:
+	--none--
+
 } {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_easic_n3x.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_easic_n3x.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling module rl_ram_1r1w_easic_n3x
@@ -58,18 +66,28 @@ Top level modules:
 
 } {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv {0 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
-** Error: (vlog-13069) ** while parsing file included at C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(5)
-** at driver.sv(29): near ";": syntax error, unexpected ';', expecting '('.
-** Error: ** while parsing file included at C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(6)
-** at generator.sv(7): (vlog-2730) Undefined variable: 'transaction'.
-** Error: ** while parsing file included at C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(6)
-** at generator.sv(8): (vlog-2294) The 'var' keyword is missing.
-** Error (suppressible): ** while parsing file included at C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(6)
-** at generator.sv(8): (vlog-2388) 'transaction' already declared in this scope (generator) at generator.sv(7).
-** Error: (vlog-13069) ** while parsing file included at C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(6)
-** at generator.sv(8): near "tr": syntax error, unexpected IDENTIFIER, expecting ';' or ','.
+-- Compiling package environment_sv_unit
+-- Importing package trans
+-- Importing package gen
+-- Importing package driv
+-- Importing package mon
+-- Importing package scb
+** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(24): (vlog-13216) Arg. 'driver_if' of 'new':  Illegal assignment to type 'virtual interface ahb_lite.master' from type 'class std::mailbox': Types are not assignment compatible.
+** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(24): (vlog-13217) Arg. 'driver_if' of 'new':  Illegal operation on types 'virtual interface ahb_lite.master' and 'class handle (void)': Illegal virtual interface operation.
+** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(24): (vlog-13216) Arg. 'gen2driv' of 'new':  Illegal assignment to type 'class std::mailbox' from type 'virtual interface ahb_lite': Types are not assignment compatible.
+** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(25): (vlog-13216) Arg. 'mon_inf' of 'new':  Illegal assignment to type 'virtual interface ahb_lite.mon' from type 'class std::mailbox': Types are not assignment compatible.
+** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(25): (vlog-13217) Arg. 'mon_inf' of 'new':  Illegal operation on types 'virtual interface ahb_lite.mon' and 'class handle (void)': Illegal virtual interface operation.
+** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(25): (vlog-13216) Arg. 'mon2scb' of 'new':  Illegal assignment to type 'class std::mailbox' from type 'virtual interface ahb_lite': Types are not assignment compatible.
+** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(26): Number of actuals and formals does not match in function call.
 
-} {3.0 4.0 5.0 6.0 7.0 8.0 11.0 12.0} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1rw.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1rw.sv
+} {9.0 16.0} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package trans
+
+Top level modules:
+	--none--
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1rw.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1rw.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling module rl_ram_1rw
 
@@ -104,13 +122,6 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 Top level modules:
 	rl_ram_1rw_easic_n3x
 
-} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/scoreboard.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/scoreboard.sv
-QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
--- Compiling package scoreboard_sv_unit
-
-Top level modules:
-	--none--
-
 } {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_generic.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_generic.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling module rl_ram_1r1w_generic
@@ -118,19 +129,21 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 Top level modules:
 	rl_ram_1r1w_generic
 
-} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv {0 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
--- Compiling package generator_sv_unit
-** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv(38): LHS in non-blocking assignment may not be an automatic variable
-** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv(39): LHS in non-blocking assignment may not be an automatic variable
-** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv(50): LHS in non-blocking assignment may not be an automatic variable
-
-} {4.0 7.0} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w.sv
-QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
--- Compiling module rl_ram_1r1w
+-- Compiling package gen
+-- Importing package trans
 
 Top level modules:
-	rl_ram_1r1w
+	--none--
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package mon
+-- Importing package trans
+
+Top level modules:
+	--none--
 
 } {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv {0 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
@@ -150,13 +163,12 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 ** while parsing file included at environment.sv(6)
 ** at generator.sv(8): near "tr": syntax error, unexpected IDENTIFIER, expecting ';' or ','.
 
-} {9.0 10.0 12.0 13.0 15.0 16.0} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv {2 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
+} {9.0 10.0 12.0 13.0 15.0 16.0} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
-** Warning: transaction.sv(1): (vlog-13233) Design unit "monitor_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
--- Compiling package monitor_sv_unit
+-- Compiling module rl_ram_1r1w
 
 Top level modules:
-	--none--
+	rl_ram_1r1w
 
 } {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
