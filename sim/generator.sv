@@ -26,9 +26,9 @@ class generator;
  localparam WRAP16 = 110;
  localparam INCR16 = 111;
 
- task create_size(input [2:0] burst_type, input [2:0] burst_size, int wrap_or_incr_size, bit read_write);
+ task create_size(input [2:0] tr_type, input [2:0] tr_size, int wrap_or_incr_size, bit read_write);
   int addr;
-  if(burst_type == 3'b010 || 3'b100 || 3'b110) begin 
+  if(tr_type == 3'b010 || 3'b100 || 3'b110) begin 
    for(int i = 0; i < wrap_or_incr_size; i++) begin
     tr = new;
     if(i == 0) begin
@@ -40,8 +40,8 @@ class generator;
      tr.HTRANS <= 2'b11; //SEQ
     end
     tr.HWRITE <= read_write;
-    tr.HBURST <= burst_type;
-    tr.HSIZE <= burst_size;
+    tr.HBURST <= tr_type;
+    tr.HSIZE <= tr_size;
     tr.HPROT <= 4'b0011;
     gen2driv.put(tr);
     tr_count++;
@@ -69,8 +69,8 @@ class generator;
      addr <= start_addr;
      wrap = 0;
     end
-    tr.HSIZE <= burst_size;
-    tr.HBURST <= burst_type;
+    tr.HSIZE <= tr_size;
+    tr.HBURST <= tr_type;
     tr.HWRITE <= read_write;
     tr.HPROT <= 4'b0011;
     gen2driv.put(tr);

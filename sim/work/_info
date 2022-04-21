@@ -138,13 +138,37 @@ R5
 R6
 31
 Z30 !s108 1650529932.000000
-!s107 wrapper.sv|environment.sv|test.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv|
-Z31 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv|
+Z31 !s107 wrapper.sv|environment.sv|test.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv|
+Z32 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv|
+!i113 0
+R8
+R9
+vassertions
+R1
+!s110 1650574168
+!i10b 1
+!s100 `2KBYg3Al]Dbj]djJSzCn2
+IWFO_?0;gg;J@^FC3QT7g>0
+S1
+R0
+w1650574162
+8C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv
+FC:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv
+!i122 162
+L0 1 9
+R12
+R6
+r1
+!s85 0
+31
+!s108 1650574167.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv|
 !i113 0
 R8
 R9
 Xdriv
-Z32 !s115 ahb_lite
+Z33 !s115 ahb_lite
 R1
 R19
 !s110 1650529217
@@ -154,8 +178,8 @@ IlVT`;d7c]9iifLXc`ab_n0
 S1
 R0
 w1650529207
-Z33 8C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv
-Z34 FC:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv
+Z34 8C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv
+Z35 FC:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv
 !i122 146
 R5
 VlVT`;d7c]9iifLXc`ab_n0
@@ -165,12 +189,12 @@ r1
 31
 !s108 1650529217.000000
 !s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv|
-Z35 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv|
+Z36 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv|
 !i113 0
 R8
 R9
 Xdriver_sv_unit
-R32
+R33
 R1
 !s110 1650497763
 VW>Yg7;DU>`RDMJ6gE8Hoj2
@@ -183,8 +207,8 @@ IW>Yg7;DU>`RDMJ6gE8Hoj2
 S1
 R0
 w1650497759
-R33
 R34
+R35
 R4
 !i122 140
 R5
@@ -192,19 +216,19 @@ R6
 31
 !s108 1650497763.000000
 !s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv|
-R35
+R36
 !i113 0
 R8
 R9
 Xenvironment_sv_unit
-R32
+R33
 R1
 R19
-R20
+Z37 DXx4 work 3 gen 0 22 J=d3zmIUH_`YRaAPaXCei0
 R21
 R22
 R23
-!s110 1650529922
+!s110 1650569199
 VI`b3NOLRJ8Ma43Ti3lMz80
 r1
 !s85 0
@@ -214,14 +238,14 @@ II`b3NOLRJ8Ma43Ti3lMz80
 !i103 1
 S1
 R0
-Z36 w1650529856
+Z38 w1650529856
 R2
 R3
-!i122 152
+!i122 157
 R5
 R6
 31
-!s108 1650529921.000000
+!s108 1650569199.000000
 !s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv|
 R7
 !i113 0
@@ -230,25 +254,25 @@ R9
 Xgen
 R1
 R19
-!s110 1650529153
+!s110 1650568518
 !i10b 1
-!s100 nTe^;?SNzY8L[3TP=Nk]41
-IaY0:gYjFUcAEI?f@UaDii3
+!s100 =`D]32m2mnCOJ@Ah]@2XN3
+IJ=d3zmIUH_`YRaAPaXCei0
 S1
 R0
-w1650529148
-Z37 8C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
-Z38 FC:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
-!i122 145
+w1650568511
+Z39 8C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
+Z40 FC:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
+!i122 155
 R5
-VaY0:gYjFUcAEI?f@UaDii3
+VJ=d3zmIUH_`YRaAPaXCei0
 R6
 r1
 !s85 0
 31
-!s108 1650529153.000000
+!s108 1650568517.000000
 !s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv|
-Z39 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv|
+Z41 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv|
 !i113 0
 R8
 R9
@@ -264,9 +288,9 @@ I5e94OWb2l3?GIK2ULYQL>0
 !i103 1
 S1
 R0
-Z40 w1650497720
-R37
-R38
+Z42 w1650497720
+R39
+R40
 R4
 !i122 139
 R5
@@ -274,12 +298,12 @@ R6
 31
 !s108 1650497727.000000
 !s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv|
-R39
+R41
 !i113 0
 R8
 R9
 Xmon
-R32
+R33
 R1
 R19
 !s110 1650529382
@@ -289,8 +313,8 @@ Ib_LzBn<EAh:8WH[miMGjG0
 S1
 R0
 w1650529376
-Z41 8C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
-Z42 FC:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
+Z43 8C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
+Z44 FC:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
 !i122 147
 R5
 Vb_LzBn<EAh:8WH[miMGjG0
@@ -300,12 +324,12 @@ r1
 31
 !s108 1650529381.000000
 !s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv|
-Z43 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv|
+Z45 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv|
 !i113 0
 R8
 R9
 Xmonitor_sv_unit
-R32
+R33
 R1
 !s110 1650483808
 V5CR1^bgcN7G>MnjC=<en51
@@ -318,8 +342,8 @@ I5CR1^bgcN7G>MnjC=<en51
 S1
 R0
 w1650483779
-R41
-R42
+R43
+R44
 R4
 !i122 135
 R5
@@ -327,21 +351,21 @@ R6
 31
 !s108 1650483808.000000
 !s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv|
-R43
+R45
 !i113 0
 R8
 R9
 vpmi_ram_dp_be
 R1
-Z44 !s110 1650476337
+Z46 !s110 1650476337
 !i10b 1
 !s100 Yh^e9?:`VngRNiUF1]gU71
 I;J979OQF[lkbm>1NnXKG=0
 S1
 R0
-Z45 w1650304003
-Z46 8C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv
-Z47 FC:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv
+Z47 w1650304003
+Z48 8C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv
+Z49 FC:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv
 !i122 119
 L0 129 32
 R12
@@ -349,9 +373,9 @@ R6
 r1
 !s85 0
 31
-Z48 !s108 1650476337.000000
-Z49 !s107 C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv|
-Z50 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv|
+Z50 !s108 1650476337.000000
+Z51 !s107 C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv|
+Z52 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv|
 !i113 0
 R8
 R9
@@ -477,15 +501,15 @@ R8
 R9
 vrl_ram_1r1w_lattice
 R1
-R44
+R46
 !i10b 1
 !s100 dOQ<RnQNK7GAV6XP?nz>T2
 Id1@QHXIEL`?5_<JF]U1<Y0
 S1
 R0
-R45
-R46
 R47
+R48
+R49
 !i122 119
 L0 69 54
 R12
@@ -493,9 +517,9 @@ R6
 r1
 !s85 0
 31
-R48
-R49
 R50
+R51
+R52
 !i113 0
 R8
 R9
@@ -581,8 +605,8 @@ I1Ae1Abfea[m1U2PeYIo5K3
 S1
 R0
 w1650529907
-Z51 8C:/questasim64_2021.1/examples/AHB-LITE/sim/scoreboard.sv
-Z52 FC:/questasim64_2021.1/examples/AHB-LITE/sim/scoreboard.sv
+Z53 8C:/questasim64_2021.1/examples/AHB-LITE/sim/scoreboard.sv
+Z54 FC:/questasim64_2021.1/examples/AHB-LITE/sim/scoreboard.sv
 !i122 151
 R5
 V1Ae1Abfea[m1U2PeYIo5K3
@@ -592,7 +616,7 @@ r1
 31
 !s108 1650529915.000000
 !s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/scoreboard.sv|
-Z53 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/scoreboard.sv|
+Z55 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/scoreboard.sv|
 !i113 0
 R8
 R9
@@ -608,9 +632,9 @@ If]A^FD7f;YRTh7bKz9LUd0
 !i103 1
 S1
 R0
-R40
-R51
-R52
+R42
+R53
+R54
 R4
 !i122 141
 R5
@@ -618,70 +642,70 @@ R6
 31
 !s108 1650498998.000000
 !s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/scoreboard.sv|
-R53
+R55
 !i113 0
 R8
 R9
 4test
 R1
 R19
-R20
+R37
 R21
 R22
 R23
-R24
-R25
+DXx4 work 12 test_sv_unit 0 22 UAL[FBX[[@T:3Q3eZfZA13
+Z56 !s110 1650572111
 R12
 r1
 !s85 0
 !i10b 1
-!s100 ]>nnX]l_kia2FeEBU[cJo3
-Iz_oV2G8hk;5gZ[Tm`_FZD0
-R26
+!s100 2ofZBm:Eg7H@=M5O;;_e:1
+I70g`<e3e^9ZN:NI30`KlF2
+!s105 test_sv_unit
 S1
 R0
-w1650302074
-8test.sv
-Z54 Ftest.sv
-!i122 154
+Z57 w1650572105
+Z58 8C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv
+Z59 FC:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv
+!i122 161
 L0 3 0
 R6
 31
-R30
-Z55 !s107 wrapper.sv|environment.sv|test.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv|
-R31
+Z60 !s108 1650572111.000000
+Z61 !s107 environment.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv|
+Z62 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv|
 !i113 0
 R8
 R9
 Xtest_sv_unit
-R32
+R33
 R1
 R19
-R20
+R37
 R21
 R22
 R23
-!s110 1650529928
-VU31a=U8EfTFTJ]FkNDVnm0
+R56
+VUAL[FBX[[@T:3Q3eZfZA13
 r1
 !s85 0
 !i10b 1
-!s100 1lAmJn@WiiLH=zG<VdR6h3
-IU31a=U8EfTFTJ]FkNDVnm0
+!s100 h?=7ITY9WgIVEV@ei[Sf`3
+IUAL[FBX[[@T:3Q3eZfZA13
 !i103 1
 S1
 R0
-R36
-8C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv
-FC:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv
-Z56 Fenvironment.sv
-!i122 153
+R57
+R58
+R59
+Z63 Fenvironment.sv
+!i122 161
 R5
 R6
 31
-!s108 1650529928.000000
-!s107 environment.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv|
+R60
+R61
+R62
 !i113 0
 R8
 R9
@@ -704,20 +728,20 @@ R26
 S1
 R0
 w1650301945
-Z57 8C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv
-Z58 FC:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv
+Z64 8C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv
+Z65 FC:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv
 !i122 154
 L0 4 17
 R6
 31
 R30
-R55
 R31
+R32
 !i113 0
 R8
 R9
 Xtop_sv_unit
-R32
+R33
 R1
 R19
 R20
@@ -734,19 +758,19 @@ IGHfNKEWf?TaadG^e:55Q[3
 !i103 1
 S1
 R0
-R36
-R57
-R58
-R54
-R56
+R38
+R64
+R65
+Ftest.sv
+R63
 R29
 !i122 154
 R5
 R6
 31
 R30
-R55
 R31
+R32
 !i113 0
 R8
 R9
@@ -759,8 +783,8 @@ ICQLGOA9NDZVhS:^XYD7O[3
 S1
 R0
 w1650528791
-Z59 8C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv
-Z60 FC:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv
+Z66 8C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv
+Z67 FC:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv
 !i122 144
 R5
 VCQLGOA9NDZVhS:^XYD7O[3
@@ -769,8 +793,8 @@ r1
 !s85 0
 31
 !s108 1650528795.000000
-Z61 !s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv|
-Z62 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv|
+Z68 !s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv|
+Z69 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv|
 !i113 0
 R8
 R9
@@ -787,15 +811,15 @@ I_jm4aJAmC_Mo2NnK]:E=81
 S1
 R0
 w1650528664
-R59
-R60
+R66
+R67
 !i122 143
 R5
 R6
 31
 !s108 1650528781.000000
-R61
-R62
+R68
+R69
 !i113 0
 R8
 R9
@@ -825,8 +849,8 @@ L0 64 22
 R6
 31
 R30
-R55
 R31
+R32
 !i113 0
 R8
 R9
@@ -856,8 +880,8 @@ L0 46 0
 R6
 31
 R30
-R55
 R31
+R32
 !i113 0
 R8
 R9

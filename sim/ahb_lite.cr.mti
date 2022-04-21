@@ -5,29 +5,25 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 Top level modules:
 	rl_ram_1rw_generic
 
-} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv {0 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package top_sv_unit
+-- Importing package trans
+-- Importing package gen
+-- Importing package driv
+-- Importing package mon
+-- Importing package scb
+-- Compiling program test
 -- Compiling interface ahb_lite
 -- Compiling interface wrapper
 -- Compiling module wrap
-** Warning: ** while parsing file included at C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv(1)
-** while parsing file included at test.sv(1)
-** while parsing file included at environment.sv(5)
-** at monitor.sv(4): (vlog-2283) Extra semicolon in $unit (global) scope.
-** Error: ** while parsing file included at C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv(1)
-** while parsing file included at test.sv(1)
-** while parsing file included at environment.sv(5)
-** at monitor.sv(10): Invalid type 'transaction'. Please check the type of the variable 'tr'.
-** Error: ** while parsing file included at C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv(1)
-** while parsing file included at test.sv(1)
-** while parsing file included at environment.sv(6)
-** at generator.sv(8): (vlog-2294) The 'var' keyword is missing.
-** Error: (vlog-13069) ** while parsing file included at C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv(1)
-** while parsing file included at test.sv(1)
-** while parsing file included at environment.sv(6)
-** at generator.sv(8): near "tr": syntax error, unexpected IDENTIFIER, expecting ';' or ','.
+-- Compiling module top
 
-} {10.0 11.0 14.0 15.0 18.0 19.0} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv
+Top level modules:
+	wrap
+	top
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling package ahb3lite_pkg
 
@@ -64,7 +60,7 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 Top level modules:
 	rl_ram_1r1w_lattice
 
-} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv {0 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling package environment_sv_unit
 -- Importing package trans
@@ -72,15 +68,11 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Importing package driv
 -- Importing package mon
 -- Importing package scb
-** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(24): (vlog-13216) Arg. 'driver_if' of 'new':  Illegal assignment to type 'virtual interface ahb_lite.master' from type 'class std::mailbox': Types are not assignment compatible.
-** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(24): (vlog-13217) Arg. 'driver_if' of 'new':  Illegal operation on types 'virtual interface ahb_lite.master' and 'class handle (void)': Illegal virtual interface operation.
-** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(24): (vlog-13216) Arg. 'gen2driv' of 'new':  Illegal assignment to type 'class std::mailbox' from type 'virtual interface ahb_lite': Types are not assignment compatible.
-** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(25): (vlog-13216) Arg. 'mon_inf' of 'new':  Illegal assignment to type 'virtual interface ahb_lite.mon' from type 'class std::mailbox': Types are not assignment compatible.
-** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(25): (vlog-13217) Arg. 'mon_inf' of 'new':  Illegal operation on types 'virtual interface ahb_lite.mon' and 'class handle (void)': Illegal virtual interface operation.
-** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(25): (vlog-13216) Arg. 'mon2scb' of 'new':  Illegal assignment to type 'class std::mailbox' from type 'virtual interface ahb_lite': Types are not assignment compatible.
-** Error: C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv(26): Number of actuals and formals does not match in function call.
 
-} {9.0 16.0} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv
+Top level modules:
+	--none--
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling package trans
 
@@ -129,6 +121,14 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 Top level modules:
 	rl_ram_1r1w_generic
 
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/scoreboard.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/scoreboard.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package scb
+-- Importing package trans
+
+Top level modules:
+	--none--
+
 } {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling package gen
@@ -137,6 +137,26 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 Top level modules:
 	--none--
 
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package test_sv_unit
+-- Importing package trans
+-- Importing package gen
+-- Importing package driv
+-- Importing package mon
+-- Importing package scb
+-- Compiling program test
+
+Top level modules:
+	test
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module rl_ram_1r1w
+
+Top level modules:
+	rl_ram_1r1w
+
 } {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling package mon
@@ -144,31 +164,6 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 
 Top level modules:
 	--none--
-
-} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv {0 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv
-QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
--- Compiling interface ahb_lite
--- Compiling interface wrapper
--- Compiling module wrap
-** Warning: ** while parsing file included at C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv(1)
-** while parsing file included at environment.sv(5)
-** at monitor.sv(4): (vlog-2283) Extra semicolon in $unit (global) scope.
-** Error: ** while parsing file included at C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv(1)
-** while parsing file included at environment.sv(5)
-** at monitor.sv(10): Invalid type 'transaction'. Please check the type of the variable 'tr'.
-** Error: ** while parsing file included at C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv(1)
-** while parsing file included at environment.sv(6)
-** at generator.sv(8): (vlog-2294) The 'var' keyword is missing.
-** Error: (vlog-13069) ** while parsing file included at C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv(1)
-** while parsing file included at environment.sv(6)
-** at generator.sv(8): near "tr": syntax error, unexpected IDENTIFIER, expecting ';' or ','.
-
-} {9.0 10.0 12.0 13.0 15.0 16.0} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w.sv
-QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
--- Compiling module rl_ram_1r1w
-
-Top level modules:
-	rl_ram_1r1w
 
 } {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
