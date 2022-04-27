@@ -29,7 +29,7 @@ class driver;
  task drive();
   transaction tr;
   gen2driv.get(tr);
-  if(driver_if.HREADYOUT && !driver_if.HRESP)begin
+  if(driver_if.HREADY)begin
    driver_if.HADDR  <= tr.HADDR;
    driver_if.HBURST <=    HBURST;
    driver_if.HPROT  <= tr.HPROT;

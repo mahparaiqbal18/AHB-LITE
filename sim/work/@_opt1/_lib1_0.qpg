@@ -1,0 +1,1325 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+!s11e vcom 2021.1 2021.01, Jan 19 2021
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/questasim64_2021.1/examples/AHB-LITE/sim
+T_opt
+Z2 !s11d top_sv_unit C:/questasim64_2021.1/examples/AHB-LITE/sim/work 1 ahb_lite 1 C:/questasim64_2021.1/examples/AHB-LITE/sim/work 
+Z3 !s11d mon C:/questasim64_2021.1/examples/AHB-LITE/sim/work 1 ahb_lite 1 C:/questasim64_2021.1/examples/AHB-LITE/sim/work 
+Z4 !s11d driv C:/questasim64_2021.1/examples/AHB-LITE/sim/work 1 ahb_lite 1 C:/questasim64_2021.1/examples/AHB-LITE/sim/work 
+!s110 1650574930
+V9<a]HA[9DzVBJi_hXIoZb2
+04 10 4 work assertions fast 0
+=1-b82a72be6e71-6261c64f-4c-f70
+Z5 !s124 OEM100
+Z6 o-quiet -auto_acc_if_foreign -work work +acc
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2021.1;73
+R1
+T_opt1
+R2
+R3
+R4
+!s110 1651102346
+V<<lmRTi_1K2:iP[I>CkD<2
+04 3 4 work top fast 0
+=1-b82a72be6e71-6269d285-140-4970
+R5
+R6
+R7
+n@_opt1
+R8
+Xahb
+Z9 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1650401140
+!i10b 1
+!s100 FlA^8HSGWXN>mkJ]4Eb5N2
+IS1ObPV4nzR^lb?@4gcm;f2
+S1
+R1
+w1650401135
+Z10 8C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv
+Z11 FC:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv
+Z12 Ftransaction.sv
+!i122 51
+Z13 L0 1 0
+VS1ObPV4nzR^lb?@4gcm;f2
+Z14 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1650401140.000000
+!s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv|
+!i113 0
+Z16 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+Xahb3lite_pkg
+R9
+!s110 1651097125
+!i10b 1
+!s100 4d]97FJC:>20>7[L<EZ>Y1
+I?`<a^Wd?>D6>8^8@=12;N3
+S1
+R1
+w1650304134
+8C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv
+Z17 FC:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv
+!i122 235
+R13
+V?`<a^Wd?>D6>8^8@=12;N3
+R14
+r1
+!s85 0
+31
+!s108 1651097124.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv|
+!i113 0
+R16
+R7
+vahb3lite_sram1rw
+R9
+DXx4 work 24 ahb3lite_sram1rw_sv_unit 0 22 :OdTi=dafAiOP:ChY<6fX2
+DXx4 work 12 ahb3lite_pkg 0 22 ?`<a^Wd?>D6>8^8@=12;N3
+Z18 !s110 1651097123
+Z19 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 kAoR]ID_5D6Qe_kL?T3=Y3
+IRigQ48>dS_3nmb`K4AN9A1
+!s105 ahb3lite_sram1rw_sv_unit
+S1
+R1
+Z20 w1650304591
+Z21 8C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv
+Z22 FC:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv
+!i122 234
+L0 72 316
+R14
+31
+Z23 !s108 1651097122.000000
+Z24 !s107 C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv|C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv|
+Z25 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv|
+!i113 0
+R16
+R7
+Xahb3lite_sram1rw_sv_unit
+R9
+R18
+V:OdTi=dafAiOP:ChY<6fX2
+r1
+!s85 0
+!i10b 1
+!s100 NR:iFPddjeo[?PAhHa=M41
+I:OdTi=dafAiOP:ChY<6fX2
+!i103 1
+S1
+R1
+R20
+R21
+R22
+R17
+!i122 234
+L0 70 0
+R14
+31
+R23
+R24
+R25
+!i113 0
+R16
+R7
+Yahb_lite
+R9
+Z26 !s110 1651102328
+!i10b 1
+!s100 PZGKgI23?XDz67n[HoMBn2
+IbfUhbP3H7iIE?D;Xh9>EY0
+S1
+R1
+Z27 w1651102321
+Z28 8C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv
+Z29 FC:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv
+!i122 247
+R13
+R19
+R14
+r1
+!s85 0
+31
+Z30 !s108 1651102327.000000
+Z31 !s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv|
+Z32 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv|
+!i113 0
+R16
+R7
+vassertions
+R9
+!s110 1651097218
+!i10b 1
+!s100 `2KBYg3Al]Dbj]djJSzCn2
+IWFO_?0;gg;J@^FC3QT7g>0
+S1
+R1
+w1650574162
+8C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv
+FC:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv
+!i122 245
+L0 1 9
+R19
+R14
+r1
+!s85 0
+31
+!s108 1651097218.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv|
+!i113 0
+R16
+R7
+Xdriv
+Z33 !s115 ahb_lite
+R9
+Z34 DXx4 work 5 trans 0 22 1bn[Y;bI`Jage5K8<?bk93
+!s110 1651097115
+!i10b 1
+!s100 DGB8Vz@7LEl`5cH75<dFI2
+I=iNn:abf6o=90J;9K5OMB2
+S1
+R1
+w1651096190
+Z35 8C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv
+Z36 FC:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv
+!i122 228
+R13
+V=iNn:abf6o=90J;9K5OMB2
+R14
+r1
+!s85 0
+31
+!s108 1651097115.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv|
+Z37 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv|
+!i113 0
+R16
+R7
+Xdriver_sv_unit
+R33
+R9
+!s110 1650497763
+VW>Yg7;DU>`RDMJ6gE8Hoj2
+r1
+!s85 0
+!i10b 1
+!s100 =oBgD<=Bg0QOS1l=OlNDz0
+IW>Yg7;DU>`RDMJ6gE8Hoj2
+!i103 1
+S1
+R1
+w1650497759
+R35
+R36
+R12
+!i122 140
+R13
+R14
+31
+!s108 1650497763.000000
+!s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv|
+R37
+!i113 0
+R16
+R7
+Xenvironment_sv_unit
+R33
+R9
+R34
+Z38 DXx4 work 3 gen 0 22 3>K6nXV;HIR[54D0eLYFe3
+Z39 DXx4 work 4 driv 0 22 =iNn:abf6o=90J;9K5OMB2
+Z40 DXx4 work 3 mon 0 22 Q^A>]0W=bJ6c_E2ZHMOYS0
+Z41 DXx4 work 3 scb 0 22 1Ae1Abfea[m1U2PeYIo5K3
+!s110 1651097119
+VJzUCBFMNmd?:kZQ_;4Q::3
+r1
+!s85 0
+!i10b 1
+!s100 6IMl@Go_RA8jAc:5G_n<G0
+IJzUCBFMNmd?:kZQ_;4Q::3
+!i103 1
+S1
+R1
+w1651072419
+R10
+R11
+!i122 231
+R13
+R14
+31
+!s108 1651097119.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv|
+R15
+!i113 0
+R16
+R7
+Xgen
+R9
+R34
+!s110 1651097114
+!i10b 1
+!s100 g@Pa[56N<m4em]kGf<hhj1
+I3>K6nXV;HIR[54D0eLYFe3
+S1
+R1
+w1651072233
+Z42 8C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
+Z43 FC:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
+!i122 227
+R13
+V3>K6nXV;HIR[54D0eLYFe3
+R14
+r1
+!s85 0
+31
+!s108 1651097114.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv|
+Z44 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv|
+!i113 0
+R16
+R7
+Xgenerator_sv_unit
+R9
+!s110 1650497727
+V5e94OWb2l3?GIK2ULYQL>0
+r1
+!s85 0
+!i10b 1
+!s100 IUX_WS=bgi>G`@eGX`^`T2
+I5e94OWb2l3?GIK2ULYQL>0
+!i103 1
+S1
+R1
+Z45 w1650497720
+R42
+R43
+R12
+!i122 139
+R13
+R14
+31
+!s108 1650497727.000000
+!s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv|
+R44
+!i113 0
+R16
+R7
+Xmon
+R33
+R9
+R34
+!s110 1651097117
+!i10b 1
+!s100 M@GHhCh]0DhlYWY_=jVOT0
+IQ^A>]0W=bJ6c_E2ZHMOYS0
+S1
+R1
+w1651072366
+Z46 8C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
+Z47 FC:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
+!i122 229
+R13
+VQ^A>]0W=bJ6c_E2ZHMOYS0
+R14
+r1
+!s85 0
+31
+!s108 1651097116.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv|
+Z48 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv|
+!i113 0
+R16
+R7
+Xmonitor_sv_unit
+R33
+R9
+!s110 1650483808
+V5CR1^bgcN7G>MnjC=<en51
+r1
+!s85 0
+!i10b 1
+!s100 j=f?:mSmmZcUf:_39N4Vb0
+I5CR1^bgcN7G>MnjC=<en51
+!i103 1
+S1
+R1
+w1650483779
+R46
+R47
+R12
+!i122 135
+R13
+R14
+31
+!s108 1650483808.000000
+!s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv|
+R48
+!i113 0
+R16
+R7
+vpmi_ram_dp_be
+R9
+Z49 !s110 1651097138
+!i10b 1
+!s100 Yh^e9?:`VngRNiUF1]gU71
+I;J979OQF[lkbm>1NnXKG=0
+S1
+R1
+Z50 w1650304003
+Z51 8C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv
+Z52 FC:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv
+!i122 241
+L0 129 32
+R19
+R14
+r1
+!s85 0
+31
+Z53 !s108 1651097138.000000
+Z54 !s107 C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv|
+Z55 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv|
+!i113 0
+R16
+R7
+vrl_queue
+R9
+!s110 1651097126
+!i10b 1
+!s100 hKWGPRP8RL11ffcB<U`C10
+I<XW6mElKU9^^U3SoD^6CD0
+S1
+R1
+w1650303900
+8C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_queue.sv
+FC:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_queue.sv
+!i122 236
+L0 77 157
+R19
+R14
+r1
+!s85 0
+31
+!s108 1651097126.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_queue.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_queum255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e vcom 2021.1 2021.01, Jan 19 2021
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/questasim64_2021.1/examples/AHB-LITE/sim
+T_opt
+Z2 !s11d top_sv_unit C:/questasim64_2021.1/examples/AHB-LITE/sim/work 1 ahb_lite 1 C:/questasim64_2021.1/examples/AHB-LITE/sim/work 
+Z3 !s11d mon C:/questasim64_2021.1/examples/AHB-LITE/sim/work 1 ahb_lite 1 C:/questasim64_2021.1/examples/AHB-LITE/sim/work 
+Z4 !s11d driv C:/questasim64_2021.1/examples/AHB-LITE/sim/work 1 ahb_lite 1 C:/questasim64_2021.1/examples/AHB-LITE/sim/work 
+!s110 1650574930
+V9<a]HA[9DzVBJi_hXIoZb2
+04 10 4 work assertions fast 0
+=1-b82a72be6e71-6261c64f-4c-f70
+Z5 !s124 OEM100
+Z6 o-quiet -auto_acc_if_foreign -work work +acc
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2021.1;73
+R1
+T_opt1
+!s11d test_sv_unit C:/questasim64_2021.1/examples/AHB-LITE/sim/work 1 ahb_lite 1 C:/questasim64_2021.1/examples/AHB-LITE/sim/work 
+R2
+R3
+R4
+!s110 1651095627
+V^=OnIViG8Agj8`g]<AL0N3
+04 3 4 work top fast 0
+=1-b82a72be6e71-6269b846-3d7-1804
+R5
+R6
+R7
+n@_opt1
+R8
+Xahb
+Z9 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1650401140
+!i10b 1
+!s100 FlA^8HSGWXN>mkJ]4Eb5N2
+IS1ObPV4nzR^lb?@4gcm;f2
+S1
+R1
+w1650401135
+Z10 8C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv
+Z11 FC:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv
+Z12 Ftransaction.sv
+!i122 51
+Z13 L0 1 0
+VS1ObPV4nzR^lb?@4gcm;f2
+Z14 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1650401140.000000
+!s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv|
+!i113 0
+Z16 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+Xahb3lite_pkg
+R9
+Z17 !s110 1651072107
+!i10b 1
+!s100 4d]97FJC:>20>7[L<EZ>Y1
+I?`<a^Wd?>D6>8^8@=12;N3
+S1
+R1
+w1650304134
+8C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv
+Z18 FC:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv
+!i122 182
+R13
+V?`<a^Wd?>D6>8^8@=12;N3
+R14
+r1
+!s85 0
+31
+Z19 !s108 1651072107.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv|
+!i113 0
+R16
+R7
+vahb3lite_sram1rw
+R9
+DXx4 work 24 ahb3lite_sram1rw_sv_unit 0 22 :OdTi=dafAiOP:ChY<6fX2
+DXx4 work 12 ahb3lite_pkg 0 22 ?`<a^Wd?>D6>8^8@=12;N3
+Z20 !s110 1651072106
+Z21 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 kAoR]ID_5D6Qe_kL?T3=Y3
+IRigQ48>dS_3nmb`K4AN9A1
+!s105 ahb3lite_sram1rw_sv_unit
+S1
+R1
+Z22 w1650304591
+Z23 8C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv
+Z24 FC:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv
+!i122 181
+L0 72 316
+R14
+31
+Z25 !s108 1651072106.000000
+Z26 !s107 C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv|C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv|
+Z27 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv|
+!i113 0
+R16
+R7
+Xahb3lite_sram1rw_sv_unit
+R9
+R20
+V:OdTi=dafAiOP:ChY<6fX2
+r1
+!s85 0
+!i10b 1
+!s100 NR:iFPddjeo[?PAhHa=M41
+I:OdTi=dafAiOP:ChY<6fX2
+!i103 1
+S1
+R1
+R22
+R23
+R24
+R18
+!i122 181
+L0 70 0
+R14
+31
+R25
+R26
+R27
+!i113 0
+R16
+R7
+Yahb_lite
+R9
+Z28 DXx4 work 5 trans 0 22 j>8ad?B6K^Y3QG]mO]I7f0
+Z29 DXx4 work 3 gen 0 22 3>K6nXV;HIR[54D0eLYFe3
+Z30 DXx4 work 4 driv 0 22 gzGTT`NNiel9FH80gi?SE0
+Z31 DXx4 work 3 mon 0 22 Q^A>]0W=bJ6c_E2ZHMOYS0
+Z32 DXx4 work 3 scb 0 22 1Ae1Abfea[m1U2PeYIo5K3
+Z33 DXx4 work 11 top_sv_unit 0 22 GgzIIdB1h5Y:?SZjnDJkb1
+Z34 !s110 1651073288
+R21
+r1
+!s85 0
+!i10b 1
+!s100 g?6zL90dF]2?[>GY8bL;d1
+I81GEhdV@m2L5AFA7Rd7TG3
+Z35 !s105 top_sv_unit
+S1
+R1
+Z36 w1650301728
+Z37 8wrapper.sv
+Z38 Fwrapper.sv
+!i122 204
+R13
+R14
+31
+Z39 !s108 1651073288.000000
+Z40 !s107 wrapper.sv|environment.sv|test.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv|
+Z41 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv|
+!i113 0
+R16
+R7
+vassertions
+R9
+Z42 !s110 1651072112
+!i10b 1
+!s100 `2KBYg3Al]Dbj]djJSzCn2
+IWFO_?0;gg;J@^FC3QT7g>0
+S1
+R1
+w1650574162
+8C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv
+FC:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv
+!i122 192
+L0 1 9
+R21
+R14
+r1
+!s85 0
+31
+Z43 !s108 1651072112.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv|
+!i113 0
+R16
+R7
+Xdriv
+Z44 !s115 ahb_lite
+R9
+R28
+!s110 1651072396
+!i10b 1
+!s100 Cg`Jz78MI?X5BD;@F2NLC0
+IgzGTT`NNiel9FH80gi?SE0
+S1
+R1
+w1651072393
+Z45 8C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv
+Z46 FC:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv
+!i122 197
+R13
+VgzGTT`NNiel9FH80gi?SE0
+R14
+r1
+!s85 0
+31
+!s108 1651072396.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv|
+Z47 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv|
+!i113 0
+R16
+R7
+Xdriver_sv_unit
+R44
+R9
+!s110 1650497763
+VW>Yg7;DU>`RDMJ6gE8Hoj2
+r1
+!s85 0
+!i10b 1
+!s100 =oBgD<=Bg0QOS1l=OlNDz0
+IW>Yg7;DU>`RDMJ6gE8Hoj2
+!i103 1
+S1
+R1
+w1650497759
+R45
+R46
+R12
+!i122 140
+R13
+R14
+31
+!s108 1650497763.000000
+!s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv|
+R47
+!i113 0
+R16
+R7
+Xenvironment_sv_unit
+R44
+R9
+R28
+R29
+R30
+R31
+R32
+!s110 1651072433
+VJzUCBFMNmd?:kZQ_;4Q::3
+r1
+!s85 0
+!i10b 1
+!s100 6IMl@Go_RA8jAc:5G_n<G0
+IJzUCBFMNmd?:kZQ_;4Q::3
+!i103 1
+S1
+R1
+w1651072419
+R10
+R11
+!i122 198
+R13
+R14
+31
+!s108 1651072433.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv|
+R15
+!i113 0
+R16
+R7
+Xgen
+R9
+R28
+!s110 1651072242
+!i10b 1
+!s100 g@Pa[56N<m4em]kGf<hhj1
+I3>K6nXV;HIR[54D0eLYFe3
+S1
+R1
+w1651072233
+Z48 8C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
+Z49 FC:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
+!i122 194
+R13
+V3>K6nXV;HIR[54D0eLYFe3
+R14
+r1
+!s85 0
+31
+!s108 1651072242.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv|
+Z50 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv|
+!i113 0
+R16
+R7
+Xgenerator_sv_unit
+R9
+!s110 1650497727
+V5e94OWb2l3?GIK2ULYQL>0
+r1
+!s85 0
+!i10b 1
+!s100 IUX_WS=bgi>G`@eGX`^`T2
+I5e94OWb2l3?GIK2ULYQL>0
+!i103 1
+S1
+R1
+Z51 w1650497720
+R48
+R49
+R12
+!i122 139
+R13
+R14
+31
+!s108 1650497727.000000
+!s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv|
+R50
+!i113 0
+R16
+R7
+Xmon
+R44
+R9
+R28
+!s110 1651072372
+!i10b 1
+!s100 M@GHhCh]0DhlYWY_=jVOT0
+IQ^A>]0W=bJ6c_E2ZHMOYS0
+S1
+R1
+w1651072366
+Z52 8C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
+Z53 FC:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
+!i122 196
+R13
+VQ^A>]0W=bJ6c_E2ZHMOYS0
+R14
+r1
+!s85 0
+31
+!s108 1651072372.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv|
+Z54 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv|
+!i113 0
+R16
+R7
+Xmonitor_sv_unit
+R44
+R9
+!s110 1650483808
+V5CR1^bgcN7G>MnjC=<en51
+r1
+!s85 0
+!i10b 1
+!s100 j=f?:mSmmZcUf:_39N4Vb0
+I5CR1^bgcN7G>MnjC=<en51
+!i103 1
+S1
+R1
+w1650483779
+R52
+R53
+R12
+!i122 135
+R13
+R14
+31
+!s108 1650483808.000000
+!s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv|
+R54
+!i113 0
+R16
+R7
+vpmi_ram_dp_be
+R9
+Z55 !s110 1651072110
+!i10b 1
+!s100 Yh^e9?:`VngRNiUF1]gU71
+I;J979OQF[lkbm>1NnXKG=0
+S1
+R1
+Z56 w1650304003
+Z57 8C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv
+Z58 FC:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv
+!i122 188
+L0 129 32
+R21
+R14
+r1
+!s85 0
+31
+Z59 !s108 1651072110.000000
+Z60 !s107 C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv|
+Z61 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv|
+!i113 0
+R16
+R7
+vrl_queue
+R9
+R17
+!i10b 1
+!s100 hKWGPRP8RL11ffcB<U`C10
+I<XW6mElKU9^^U3SoD^6CD0
+S1
+R1
+w1650303900
+8C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_queue.sv
+FC:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_queue.sv
+!i122 183
+L0 77 157
+R21
+R14
+r1
+!s85 0
+31
+R19
+!s107 C:/questasim64_2021.1/ex»e8	¹Œ^XÑ6«OÌÏd—LÎ¦³¯DLÏ¾Û—aY‡í¼÷P_ïÊ½¾²6}ßéŠŠ°_íËª¸“&|ßè˜›¡NüÚ»¨4HÙ¸³£8íÈ„µPs »ğcz|Ü”sfb š%2,äMò/
+¯G:5Lô‹òIŞcq©S¹È¸)´ÕÌ`aø´¿a çyœĞdIÜfzô|$}/îÜHúQÒÿ#ÃàXĞ<ƒtÚ·¸'6ã%Õ—÷'CŸŞy.Ûƒ5^«¹î°0G¯Ï¬È•I4¼|‚†7E–É¢g©¥èŠ£=…®ÿšşœ=~\•¥ŒQ(H5¶9Šl€aíTN!‘K‹Ê2¾HâËƒÁ²xgT’õ‹úGó-Zp‰Ãp¤2?çd\}>éÇB{\1wEêÓmµ·À2 …Ó}äĞáhÄïvz´"·;ùÎ“d¼É“?¢İËí¬?=&+æ•·"?F"´XJ½óQÊ'89R¡I¬mıEÍxàìğöÅ^Şò”,Äu@±:•9ÄWmÄ¹q'ÆEò½£";ª#ûñQZ×bI™–f6ÄÚÙf©M)Ş±à×#bÊWíÌ
+²î¤$Ô^g7ÌÔ8-ò°š¹x°ù0V+‡fÔ#1"5ş»²tPÊÑüÀZ ·ÚÇ‰„]Çk½´Ê:ê½G¡}Øß
+»ÒbRØ@ÚU	kiÊõl©ÜS%Î%¯j·ğK½_®Ñº{"†‘'…ûî 9ÿ&]‘Ç?X™GLV·w]èÆh”S"8Ü¸dBdN	V'C &Pg@G·¿ÃyÇ+”ØÕv¡ÚTh±òeĞzØnâ"vœŞ€"éL0Bu¤“cc	VÕ©Œ«r``f.PÁTx,ë,^Iı8±à¯†Z¥]ÉÚÒšÊ =±ïaá1/™Á8”Ñ0Gúú <Ó(•ÙÇfş™×ï.ìÊö•BE_ƒÊiE¬†4º{ãj•’”A7¶!~xo²”€¼ø%wèW¸¸|hÙx£á HQ[X^XåQ$]k–YğQp°u¸‡+]Óâ{µF{¬÷éÚÒz¤¡
+®ãl1
+öIáãóáç7"ØRyÎŞ#‚oh–¦|7QËù%–ì•b<Y	5<"7ŞÄt(>†h½Ëà?“hŸæyÆÛ¾á†²«pHš¾üÕÛÃ¹—áÉ›¸ÒÕBJ¹ä¸M¬ˆÒİ	Ç*•œrj3(B7¸Ç
+º/²šféÎÜewæù0gœø|s-Z³ú`Œ•I'âä¶ù«fmìİÉ‡'#:¯øñd[Ÿè™€P#Ÿù°—ùõ}ÜÈÒÔ_¤;ÃÈM²`PúyÇ+‹tğMC(C)PE>zº.¬räÎ¾Üdi{œùb—¤¶ÏyK½çéB!8KnÓVuGg&Ø€p`8GmôPMJà_ƒ/d!<Â"ymÂpzİ"æ½/´ä“l’ ±S©ƒú´„ —1¦¥ĞTwİôÚ:	ı7@ÿ]÷Héò 2¶°Sò»Œ¤S,Ş»Æ‡r|N!O¼ò`! r¶<µu
+æVh„[®¶w„…‹Cr{N5¤zfÛùàÌØBnŠ6r¡]`Ïzòë˜P£[Tv“œ‹€,§ÇŒğWx©*÷b1”8b!ØÜÒ7b;£­«…2'Ïû°Yk¨ÜŠÔ°Æ»EáíL”|AZ;£üŞ+ô)1‘[	UÙÆWÛuÊ oF•õ#)o—ÁqS+_Àdqryì,ÀU&pC™ªÄQP(İÍ÷BP/“£7r~Šùå(ráÉg=Ãkæ^).¦ù„ü›ÕÀãy/:%p©¼S¥ü­04·ÓcÓk5†h».8…t†Ç1¡ªóOÍÒ%Á3
+Ø–K…-p£uê¹›ˆ>¡™7[ëcyĞ@ Ò6J_aep\®y•U>ùÄ?ŠU“î T³äÁ-ôŞö©0AwçdÄ
+à‡#Ïn^ŠBÄ÷ ÿR§¡‡í¼æ¡´Ó(˜™€sßşí«Ù¶Z¿ŞÜ²2ØçıbIŒFe†P15·‘Š÷e@^®Œ¸¿vûú¸œÈ„´[ïß‡„‹d¶.´¾5K:	î#-¡z6|N¨< Šòm@ŸS[Z™fĞTxæİ¼À6}v;»‰…DQBQõ_µwB E–ñR41
+ë“^z‘d’"&<26;Õ-&£âÛş¾—)Íâê£­Æ¥@Î«Ğ”TÈÅì
+ P2‚ •ùùrYßÇlBù‘!(‚ù>¨µ<Ö|Õ
+Õ¾ê÷XÖ)ª®‹¦{¢¯ºèĞš2eò.ãbØ•=†ãı{ûí(Rw'BïMŸh˜OàËøìQ
+"eéY•lh •ÆÅ<,õ« êŠumŸ,‚Ê-Ê,¬ñÂ$mx»Öp67° O*‚a|ş	£R|À(š60êª [K¥kÌµ Ä›N¯§ŒN´w»#{a&9y¥e„Bòÿğ$„íœÌÜÔ[¨ÙâÀ
+ó{Î†ğ ÆJœÑÒèÙ¾Nja/ˆû–".rûdRÍ´J00ÛœPœƒfh•Z«í-ÈŞ×«rı%¼<øÒ
+‹ º¾.©ø…×;İãşp—Ñt£ õğQş²Ÿšª”Rƒoù¯ïæ~··yÑÊô>£Şú°Îò7üP¶= Æ:PHçÆ¥€üŒ:w/¯Å™,MÀÇg½™ştRªâŸ8°4à'ã§×t},slüOÈ Şã·¢&AŞLˆ‰>òxö…W&GéŠŠ“B0)­Â®QĞµ£,è±"Šx¢ù&‰Zˆ|a.ômá H™²qàıÒ*ğüŞ³´=*o,3xß›å
+l³¡
+k¨HÊÀ˜˜-jk0\şLèôéõ¾Ñã•,ú­Û©Ùè0j¨»Ñì[¿W,ÎÙ‡h“cF€ôHîzæëè’8Ë—æ6Aˆ¿£Çp#ÀğŸ¼÷;å¦¶6?Î/EŒÙWlğbµK:é)Q’q-p,UÎKØmí'ÖX€•«ÅĞõ
+nI™µÓT/íˆÿÆdÔÑuÆz·&ïŸÜÕKš3$‡~ç"Ø’uÏç½¿¤¸V7'F«lØOä±|UJ"a­Œ‘,h¤ÑU8lõ¯QTv~$ÂıÓ
+2üÊƒı|ƒèüÑHş>ê…¶ßd[®şÙ³MÊÚ˜åß÷¦’=¹­¨9BÓyÆ‘Î³mêmf&ô\HIÓUÍÎhÍkr¥	¨"í| è¿—+S±'7®©s±_š®ÖvÍÑ1–Ñ«¥º@tŠ
+Íı ÷c¼Oî”ZË7b¶fo¨{¥<Ç	o7«Kÿ¬0Ş½„rë‡äRìĞÏ¹ôİÀUí¦Ë‘‡İ°æV›KûˆWC{bdª/è;Öb¯V5]ã'iƒb_5Î<¼J…Goä^Æ[”S\¶é¬Æf0ú¾ºééf¯*S}‚Ğ×%ji"gíÊmÈM—ÔX Mo6ä>Jˆ©=¹~×ƒ“e‡`³Y’û¿İU4xËày|ÀHğĞWF#ê¹ô!@•ï°V>â-€şñE}­-.„”œ•%¶#¦zi‡´PŸè–¢ [NÇê=yòÎÓÌsâØ*I“á¬â\“-ÌÙÄ?E¼‘ş©pìßêãwãO‚ª!>S7{áé€` x{~9n¡KAÊôWµëöğ~õ‘^…É‰p³ÿuïYµÏ`¬¤¯Ä¾O¬ŠšÁÅf%…¾fzˆ…j»¥p„#mÆ|ÑM¨k»í#ş—åFu@|ÿÆøç3<A#õ]ĞXâ}²RĞÇ¯¸ÙkaM€6¬yÜ[¢è”ˆÌ¯b0…ªm_¦VÏÔÖò†RßU*•Ws*å(#µ–Ï§p=ÌÚºûÍ>ëûéÇ†«B=Ë«ª©Û+œÌ”À‘ÿú÷Š¹À[ÀúhZT0ùKâumNqÏ6%=HŸpJ„ÍŒù:h%¹§„øĞ?sã^è²:ÍâKèkëÎ>±n&Z†R8G2©´>Ğql†üÎãl=ËÛ‘ãóí%å¨RyÂEh–ª¾+ğlQÇ;	Qœ•bşuÎE<"õà/èDˆ~RE\ğm%ÎŞMÚ\­‹£+®°på]€OÙó~ã*¼œP!ÜŠÎ®².³ÇjıR].,‡69dŸ¦8¾"™Ó¥IP, œÛ=™$PX½w\X‰ñıêWÍÆã%›r§+¢‹…Ö—(NSšÌc&<¶„F#-`ïætYşlQE=µ¦gshpèáhs÷ ö-ŠQÂ}Ï9*æø’çmŸ•Á Šè?>efÀ-C¡¼¬&]&Ãmš’8 ÔBÊ}ÖAÔíŸô^ò>øÙáøˆ×¦³@³À-êÆ	·>C`ùç†>S…q»\iÙ3p1
+2/eĞš£l.îêñë¥4^‘ên;Kö5¨[ärâ•a|ĞÆ lX™Uäœœÿ[˜E5¿Æ›ÆVmÚ¾¡fãîè¶ùHˆ¢îG?Ã\ÜİÂsBÈŠô¤TK{'(œÖtw%LÚàJMğí‹Oä¶íŸ	Øİ(\°0Ì}ŸfqØ’èÈì_ãµÊi›…ÿÒ¶öÅ2ÅbÙ%)ÎJ Ğ_n:¤aĞ©ÖT.ğü«_øÓlˆ¿év?àıÎ…"a“½Bm–`
+¨ßÉÇ$5¨@İ$OÊòï»#%š¿1ZÈ·÷:û8ŞÑ½ÿodáw‘ ôï¿Â1éñ k¸²3—,Æ^ıÀ£FˆˆÜ½VRÙıÂ7:!?ˆ½ÕP
+7x»NóTF$—-.?®±$ƒ™AÙ†§8ê<Ó´…™øµşÆùÃQõcÍlÒ©…“û=Š¶í juX¬ ¤PaÓ,{[·xø=ZÕ‚9„Q<Å5ÏÅw*ÅZª¯¬9Œ”•¯3éaRu¬¹ÆXFÕ$V®úb`hÄÃ@Á˜Ù¢‰º<^Apâ±¯J>îÙˆ-×P‚HŞõK£m® À2úÙ÷I„\Ø²¶çê)úŠ©Ï¾á“Á½Îã¥§­†>Úk—iVxO°c®û;ım“jq8JÃİì3’VY›¸”	ïsáÔÓà2á±^íÃ%MÍ… áRd¢&ƒÍÂ	¥?9_.BÂfØ¾Eå AĞÔÉWQFô›/å'ß‰k®‡an»@E
+W¬œ”yQªà–süÛu“¯á‘^W¾ck‡Û›+!ºÂÇF¾õĞ¡Ş`X‘¸¶ì;ï=s>Æïšõ@JûÃÒ#b6rL³4P 6í—.n¼ÉZ$A ÷f1b^Ÿ'‹õ	g¤²á©Ğú`Å£§h•ç½ScGP›"ŠÊNÚ[ı²«h„rºu\êh+ø„Vx•D†ˆ€MøV¥/Ë“çB¿>ÒôÃ:lA#ç!"î8¥TdR­à¶$,º’(KI‹é×Ô™f.¼>0^¶_:‰
+±Şı©ú3#³x<
+÷Eù½@—Ó^d¶Ğ\ø¹ lÀ>ıvfN`f9€sL.ïóbe9¨ë¥EEr}ÏØ¶PA9›¸†?£hß‡† ÛN®´¾7*ôwº	ÅœÕ¡z4WñP¼ Šğ1»•ÀŸSYq&@Y|ŸM¼Á$Z@#°g#'b4œ/õVWm|GÇr21güØsPS¢"+ì>öÓM+sîÎ¸tšùÁ!ÚÃ ©ƒş­°™„ÄÜ@]âÃ “™ô¢È#KŠ¬Çkò^W©§ÇíØ"/Ú"O«¥D[ç}…2IæAKGnTwVg[Œ9‡ve#nÄ9e‘ÃÎ¯¯ Ôì÷»·îô„UŸºÄ×féĞ½4 £Á„íº@>R[æÂœ¤A$R’
+±Aç,±ù—t_–aÓÃ.ó_ÄO³»‹ô)ğ/ø‹ä¹ h÷‹{ibeÎ:ñF[q£y .ùU
+9ŒC|w·úıê	¹(#Tª”²›ãé@Cïø¨@¤yû¬×lyr-¹^<ŞıÆuGì»‰ù€VDÅ[¼“Î÷·¼ØÜ=†1 Ì|Š7iY‚èÉùû4Êh	Ê~Â¶÷ĞcİãÉ6;ö]³â\iy]iñ|{•hä4Q³D¬ÄBp&û®ÎÀQ‚Hß°eD|‡\şåW,3%ºÚW³ãÈÈÑãæ9ÌñÜqTÜÖ¤SøÄ'åDÉÖÚe×!"ƒ¦úˆb!7Oœ~„GB8$CˆáEEB7-¤©“{,ˆRêi„_ær+Ÿf%2»Ñ}§ ÖœÚöPIL76;F¹Ãc"›ñƒ,¬.‚º¾f)$r~Ø,ìX«×˜±çËÏ ¯D+¸½ÆÂr"ıÏêölÈİëğÏ¾É‡óQ
+;6lº¾ù ğB±oŸ üˆÚV´Åœzáúgg¸Ï’·h
+âšnbs@'æñ»ÚNİ,s%Ñ(EÜ•A¹®e Sğ¦=Ö_â<Ü’W˜‰—KÌÈvÎ÷oã©–{ı‚ëŸçh‹²u¢>°+Ä²êrÓq@ı`]êeàJ95HAU9 XÍcôÉÄ{km;Ÿ­?«\û®Tc \Ùƒ!E*HŠö¡Ú´J,29ŠºÌEÎb0”g¯õPRİÀmŞšPÍ.®µ£áG"ºÛ¨Jµ gâ:'0¼—&\mõÀNğşUJ$[zh³.`ŞâYLÀ!ŞM–goä^òyèk¹Ìqd&ú‹¾ö@6*ŠúÁÃW5¥tÿe|Lö²›c£«ğ÷oá[ÚŒYÜ’7£[¶n²ØšÆ.™n-tE ß§'MååHOï1PdÜÚ"jñ”¼h¯onM±üõ¤ï¢k’ô|…‹ô«5K= ‡àÚ¥| ¤ÚÎñ,sÑÖ)evÙñ0UY¼‚Nlâ"·{·-%A|Æ·²õ¯¿­-8Ú–«š<×²4¸éEß±­Á#•tÑ†ÀhcDRª¼¢6×èç†[
+ŒúÏ¯ævªÖ‡yÓO?UÕÂ7e@(yçqE$ab
+¤G)mÆ3L»G¶½+÷'‚ö<’ã‡5ÌÓú°Ç2FõA—5å“¶1'İğ™o˜g@ûÊ@^bò$q‡«°#ò‹ø½¿ä\Ş¿…¶iÕm(å,ÕK¨¥yğaˆúíĞê«¼•¦r}¬´¼
+vŸ¹Ç€Y¦­g:7o1‰ÒIı\«s¹Ê›D×ì`cÛ‹OP!!wş9?`Ù™¿9?µ^ú½ÀËR,Ã²ù¨Ñ2núˆ»¯”pëŠ¾µyBZšïÇ7ÆÀ%’`zĞŒë‡6nè‹²x}Èß¬´²ç­%Çm‚g:9‚ê¾)ÒI ‡;s¹ÄvÍşwì`m6Põî3ÁµêÊª’0¦j„Æ•MÀ¹êDCcâÿO|â-È“%^ÕVl¥q(áeìÒy£Ie<?¹ÈpÔ­hÇîû{¤‰İ´×i!«|D\ä×ãºOÁïN<<b“[°2?^¿õnõ@jÕ»¸„gGy¬¬üĞ1NŒ¯½¡DRl†äI—.ÈÏ±f—±Í$Ú_&;âzèÔŠ¿8Ï›%Fç:nká ­ÿfñ²H`0ôÍ5¹ür8–uÀê¤á$U¼.ù„U9¶3R¡'P-Ì-Ù‘N”]¦‘ÑÉaV6Ÿ [æXB–(´úf#[#&ãD‚«ç@©º8rN 4±¸Û]øY¬…Y}_æÔ(&x&;²ÄTTQüËø3Ù†~Á€K¬áhƒ­¹„}¸ˆƒkC%ğwƒô“ÈÌ›N2~¼ñØ;ù‘ÔSüŠ1¹ÖŞ/zõeó¢°£\%n"k€]¿uìüVµQ4Cvh–uK¢wd@Xg}©/ÅGP1–Bò”³Ú¤û‡n™Ç¾jc’Ú2|TaB±“­×f,©ÆÂ}Iå©YM/·"ÜÓb£‚k"<
+´‡7®g1¥–èßÈ-ôÙ	1vˆ°ÿZÑ".íÈÅ'Ø¿~W¶ÖI dh›£oŒ,ÁMì°|“ÀÈqn•S²sgÖhÜ=À'8ùhCí*àSÀÙÉÂôåo³æP]Ò¡Ø
+Êú· sÜÆ`ÓA~!k‡k§cK4×5Â0=ĞwˆTèX}”¶³bwD€´‰æ¤r°rc† ‚ty8¦ú?[İ9¥­}òÉ%?òıtC
+·lÑ@~Ü›X³ oŒ×c)Ñ	+”`8Ó3Z¥j±]M¹Üq¶rf)©ÀÊ4ÎÑŠˆ‡\Ä·uáVÿâåIQT%ÆpˆÌsõÕÂ	j«V_Ì_½Ë9< [ ÅDmáZ†=º/î€E©³„×Q›†¾\†'‡c"24ßë¤QApıœâ6+(ì„ù>õLü˜†B³¸ê„Ò Û²Ò ¹Şwe“,­N÷ş©&­]Š‘´lZ2„#Ñ)h•ğ\ÿ{ŒÒ9€)¢7ú«£#åeñÈ­rÎ!8|”z±a'jµHíz ó/»"C|x/ì€FS`Sª(à+*Â"ØA_f|&«ô,_în£‰UÜ›ˆ$fõÊ2È¹b=ôYÆÊ°ÄcåÆ¢Ä@Ë8ì&X³`r÷ş¢.Ã#*º­ÁñWx¶H–)›öÓ”Uk‹ê¬èºÍó *¥{°õWËôİÅ‘s~‡äWüQßw 1¶K-@®‰q+Oå~£âÕøÅNÈ¹ìÕ¡xt,Ò¡¡Tkı`‰F‡ï©‚<ĞÈ™Š°`­ŞêîÌ×6õ=“‹‘-ôlR¥7UÅr!:¯ñ®¬Y„ñÕß`ãt÷º/¤p©±‹%ö04µCått+§c+‘#!y :“0X©“Ca*Ë:Ù½ê·gjû¢<ØÔ%]ÙÕz¿¾}¾ °¦|…®¼ÏÚ:-¿ÖöI—R'‡r—ïìyV(äÖ~küt‰!9Í»X¼=Ç/©Ã{†{ È =±|æ.†Î·å¶–6ŞRÎyÑ¾ÚDR9—c&v8r+µ`[*ÈÌq¼Ò`NØĞÀ”Èè šˆüÂĞñVõBã. D%ÌĞ«åÕ¶Än~z¡öYj´T~¼’b	©Ö»ı;:¹ˆœÛ•f	ïíÓ¼‰­“´Ğ'î?Û~!£b[¢6xó#'iÁtMÑTa«,®¨1½ÍH¾´NÁ‹8îÆşÈŒã2Öb•ô](F eÍÏ~­d•	©4hL é©lĞ XÒÃd^ğ+‰íuñ]lÙ—Ôl‰u;›î1QV ,İ×fs%ENÿåE	ölˆ£"k'íáPC	’§øå}CNÏòİÙ(Ê6qÓ#ı¹ã¾¦ß<IË…ôc££bÅigiáO«[šwIÚv){=ÇhA&!æ€r~0Öˆ6X–åÛ&‹É’òŒIŒØœÜˆ—j¾ºßúªà,ÙÑ‡Ó…ğêã	ÏúŒ\BEq…|Á4H}Õî¢¹Šiƒñ[Ñ€Óú!D~NÃ¯eøí>ÓÇa]Œ‚‘èä_ïåË­•pØ6œ ø¢­Ì¶dg½XI0, ’GeDQ
+²7'$Gs}ôPN|¤
+(“u´gTÕİ¾Ì\á½×†h7?aöxL‚LX‘›ın#¼œ÷Ñ8¼e5·L<Ş†2Y¡ÿ³@Öuy®5õ² Ôô^Rf+óüÒc¹…å}ÅB9ú½ÅOşXØ¼õHÑ^Šªš³-ó­ÆÓ6ªÜœƒ›OcdíğS•Æ¾ú¼Ñ
+¹ˆÉó)‹««÷öE/Ë¼¹)Ÿø¸¸œ–/˜Šşù´}¿òÇ.¾ÂjÁ¶PAŒHÚğ¼×Vø§›c+£)ŒË¤A®ù†{4$PR#FyÂ&a%fw(Ä! 
+–w,$ÔÁB{lÅ‹Ráî«r^ç—a–_á)„C*·mÀ°Õ{ÌRdOÄp5c=â6sBdwˆÒ$›öbÌ\À?´İæƒ\ãVîö{Åv|ÌÔ[¯åAM¾…Ş³"oÀº®è³kï¼©š•AÍîóˆ;Ô3êDOŞ'sÿvƒlt¬ÿ¾jÑû¨×f;¢,ÙåA•Gõ(¦B—!©™—@8•¯åf~ğ,ıÇûm9÷³.¿Èn±â&"ØG„õD[¢k®¨–fy„Yˆ˜¡c3©õÆ:Ä?AÏÂÄG½ä[¡2—ö¥
+JÏ²«1á¶ÖCÁ5P¥?ùTFpñj°pR<ÔX•C$a.ÅL¦k%²'y 7f„ †°EÇE&WEBğ½ˆZØ.³ìş{óÎ#®È’9ğ‰ıÀ
+½Ê3-Ïã-™º=‰¶ûŠ‘Š«¸¾Ù½‰¡Ÿ±ıíËy«Ç<ç@	»É*/¤„ ‰ÂĞÿìØá	ô]İÎüÒ,×nëğ•r+èXÓÈá$Yûş†oÇ-D|Ó†+&É‰ó8 
+#3^Ğ)–jE¹³<ĞüĞ™ò1>ïë«¨×P,ïú‚¿~è$LËŠ–xÇ'Fì1HFwS
+ÆJ*õAr”Ñ~y-º¿_ô]Zø‘Ør=Ú³/ë´Yi…ŸÅQ0pşê¯Är0[øíİâ4Uyª·Â/{¹O^jçg ¿ä$m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11e vcom 2021.1 2021.01, Jan 19 2021
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/questasim64_2021.1/examples/AHB-LITE/sim
+T_opt
+Z2 !s11d top_sv_unit C:/questasim64_2021.1/examples/AHB-LITE/sim/work 1 ahb_lite 1 C:/questasim64_2021.1/examples/AHB-LITE/sim/work 
+Z3 !s11d mon C:/questasim64_2021.1/examples/AHB-LITE/sim/work 1 ahb_lite 1 C:/questasim64_2021.1/examples/AHB-LITE/sim/work 
+Z4 !s11d driv C:/questasim64_2021.1/examples/AHB-LITE/sim/work 1 ahb_lite 1 C:/questasim64_2021.1/examples/AHB-LITE/sim/work 
+!s110 1650574930
+V9<a]HA[9DzVBJi_hXIoZb2
+04 10 4 work assertions fast 0
+=1-b82a72be6e71-6261c64f-4c-f70
+Z5 !s124 OEM100
+Z6 o-quiet -auto_acc_if_foreign -work work +acc
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2021.1;73
+R1
+T_opt1
+!s11d test_sv_unit C:/questasim64_2021.1/examples/AHB-LITE/sim/work 1 ahb_lite 1 C:/questasim64_2021.1/examples/AHB-LITE/sim/work 
+R2
+R3
+R4
+!s110 1651096216
+VnAm^;n3eG;k1G3U=7Xaob2
+04 3 4 work top fast 0
+=1-b82a72be6e71-6269ba93-1f9-33a0
+R5
+R6
+R7
+n@_opt1
+R8
+Xahb
+Z9 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1650401140
+!i10b 1
+!s100 FlA^8HSGWXN>mkJ]4Eb5N2
+IS1ObPV4nzR^lb?@4gcm;f2
+S1
+R1
+w1650401135
+Z10 8C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv
+Z11 FC:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv
+Z12 Ftransaction.sv
+!i122 51
+Z13 L0 1 0
+VS1ObPV4nzR^lb?@4gcm;f2
+Z14 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1650401140.000000
+!s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv|
+!i113 0
+Z16 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+Xahb3lite_pkg
+R9
+Z17 !s110 1651072107
+!i10b 1
+!s100 4d]97FJC:>20>7[L<EZ>Y1
+I?`<a^Wd?>D6>8^8@=12;N3
+S1
+R1
+w1650304134
+8C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv
+Z18 FC:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv
+!i122 182
+R13
+V?`<a^Wd?>D6>8^8@=12;N3
+R14
+r1
+!s85 0
+31
+Z19 !s108 1651072107.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv|
+!i113 0
+R16
+R7
+vahb3lite_sram1rw
+R9
+DXx4 work 24 ahb3lite_sram1rw_sv_unit 0 22 :OdTi=dafAiOP:ChY<6fX2
+DXx4 work 12 ahb3lite_pkg 0 22 ?`<a^Wd?>D6>8^8@=12;N3
+Z20 !s110 1651072106
+Z21 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 kAoR]ID_5D6Qe_kL?T3=Y3
+IRigQ48>dS_3nmb`K4AN9A1
+!s105 ahb3lite_sram1rw_sv_unit
+S1
+R1
+Z22 w1650304591
+Z23 8C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv
+Z24 FC:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv
+!i122 181
+L0 72 316
+R14
+31
+Z25 !s108 1651072106.000000
+Z26 !s107 C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv|C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv|
+Z27 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv|
+!i113 0
+R16
+R7
+Xahb3lite_sram1rw_sv_unit
+R9
+R20
+V:OdTi=dafAiOP:ChY<6fX2
+r1
+!s85 0
+!i10b 1
+!s100 NR:iFPddjeo[?PAhHa=M41
+I:OdTi=dafAiOP:ChY<6fX2
+!i103 1
+S1
+R1
+R22
+R23
+R24
+R18
+!i122 181
+L0 70 0
+R14
+31
+R25
+R26
+R27
+!i113 0
+R16
+R7
+Yahb_lite
+R9
+Z28 !s110 1651096162
+!i10b 1
+!s100 PZGKgI23?XDz67n[HoMBn2
+IbfUhbP3H7iIE?D;Xh9>EY0
+S1
+R1
+Z29 w1651095912
+Z30 8C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv
+Z31 FC:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv
+!i122 222
+R13
+R21
+R14
+r1
+!s85 0
+31
+Z32 !s108 1651096162.000000
+Z33 !s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv|
+Z34 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv|
+!i113 0
+R16
+R7
+vassertions
+R9
+Z35 !s110 1651072112
+!i10b 1
+!s100 `2KBYg3Al]Dbj]djJSzCn2
+IWFO_?0;gg;J@^FC3QT7g>0
+S1
+R1
+w1650574162
+8C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv
+FC:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv
+!i122 192
+L0 1 9
+R21
+R14
+r1
+!s85 0
+31
+Z36 !s108 1651072112.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv|
+!i113 0
+R16
+R7
+Xdriv
+Z37 !s115 ahb_lite
+R9
+Z38 DXx4 work 5 trans 0 22 1bn[Y;bI`Jage5K8<?bk93
+!s110 1651096197
+!i10b 1
+!s100 DGB8Vz@7LEl`5cH75<dFI2
+I=iNn:abf6o=90J;9K5OMB2
+S1
+R1
+w1651096190
+Z39 8C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv
+Z40 FC:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv
+!i122 223
+R13
+V=iNn:abf6o=90J;9K5OMB2
+R14
+r1
+!s85 0
+31
+!s108 1651096197.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv|
+Z41 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv|
+!i113 0
+R16
+R7
+Xdriver_sv_unit
+R37
+R9
+!s110 1650497763
+VW>Yg7;DU>`RDMJ6gE8Hoj2
+r1
+!s85 0
+!i10b 1
+!s100 =oBgD<=Bg0QOS1l=OlNDz0
+IW>Yg7;DU>`RDMJ6gE8Hoj2
+!i103 1
+S1
+R1
+w1650497759
+R39
+R40
+R12
+!i122 140
+R13
+R14
+31
+!s108 1650497763.000000
+!s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv|
+R41
+!i113 0
+R16
+R7
+Xenvironment_sv_unit
+R37
+R9
+Z42 DXx4 work 5 trans 0 22 j>8ad?B6K^Y3QG]mO]I7f0
+Z43 DXx4 work 3 gen 0 22 3>K6nXV;HIR[54D0eLYFe3
+Z44 DXx4 work 4 driv 0 22 gzGTT`NNiel9FH80gi?SE0
+Z45 DXx4 work 3 mon 0 22 Q^A>]0W=bJ6c_E2ZHMOYS0
+Z46 DXx4 work 3 scb 0 22 1Ae1Abfea[m1U2PeYIo5K3
+!s110 1651072433
+VJzUCBFMNmd?:kZQ_;4Q::3
+r1
+!s85 0
+!i10b 1
+!s100 6IMl@Go_RA8jAc:5G_n<G0
+IJzUCBFMNmd?:kZQ_;4Q::3
+!i103 1
+S1
+R1
+w1651072419
+R10
+R11
+!i122 198
+R13
+R14
+31
+!s108 1651072433.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv|
+R15
+!i113 0
+R16
+R7
+Xgen
+R9
+R42
+!s110 1651072242
+!i10b 1
+!s100 g@Pa[56N<m4em]kGf<hhj1
+I3>K6nXV;HIR[54D0eLYFe3
+S1
+R1
+w1651072233
+Z47 8C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
+Z48 FC:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
+!i122 194
+R13
+V3>K6nXV;HIR[54D0eLYFe3
+R14
+r1
+!s85 0
+31
+!s108 1651072242.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv|
+Z49 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv|
+!i113 0
+R16
+R7
+Xgenerator_sv_unit
+R9
+!s110 1650497727
+V5e94OWb2l3?GIK2ULYQL>0
+r1
+!s85 0
+!i10b 1
+!s100 IUX_WS=bgi>G`@eGX`^`T2
+I5e94OWb2l3?GIK2ULYQL>0
+!i103 1
+S1
+R1
+Z50 w1650497720
+R47
+R48
+R12
+!i122 139
+R13
+R14
+31
+!s108 1650497727.000000
+!s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv|
+R49
+!i113 0
+R16
+R7
+Xmon
+R37
+R9
+R42
+!s110 1651072372
+!i10b 1
+!s100 M@GHhCh]0DhlYWY_=jVOT0
+IQ^A>]0W=bJ6c_E2ZHMOYS0
+S1
+R1
+w1651072366
+Z51 8C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
+Z52 FC:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
+!i122 196
+R13
+VQ^A>]0W=bJ6c_E2ZHMOYS0
+R14
+r1
+!s85 0
+31
+!s108 1651072372.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv|
+Z53 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv|
+!i113 0
+R16
+R7
+Xmonitor_sv_unit
+R37
+R9
+!s110 1650483808
+V5CR1^bgcN7G>MnjC=<en51
+r1
+!s85 0
+!i10b 1
+!s100 j=f?:mSmmZcUf:_39N4Vb0
+I5CR1^bgcN7G>MnjC=<en51
+!i103 1
+S1
+R1
+w1650483779
+R51
+R52
+R12
+!i122 135
+R13
+R14
+31
+!s108 1650483808.000000
+!s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv|
+R53
+!i113 0
+R16
+R7
+vpmi_ram_dp_be
+R9
+Z54 !s110 1651072110
+!i10b 1
+!s100 Yh^e9?:`VngRNiUF1]gU71
+I;J979OQF[lkbm>1NnXKG=0
+S1
+R1
+Z55 w1650304003
+Z56 8C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv
+Z57 FC:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv
+!i122 188
+L0 129 32
+R21
+R14
+r1
+!s85 0
+31
+Z58 !s108 1651072110.000000
+Z59 !s107 C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv|
+Z60 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv|
+!i113 0
+R16
+R7
+vrl_queue
+R9
+R17
+!i10b 1
+!s100 hKWGPRP8RL11ffcB<U`C10
+I<XW6mElKU9^^U3SoD^6CD0
+S1
+R1
+w1650303900
+8C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_queue.sv
+FC:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_queue.sv
+!i122 183
+L0 77 157
+R21
+R14
+r1
+!s85 0
+31
+R19
+!s107 C:/questasim

@@ -1,4 +1,22 @@
-C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv
+C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv {2 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package top_sv_unit
+-- Importing package trans
+-- Importing package gen
+-- Importing package driv
+-- Importing package mon
+-- Importing package scb
+-- Compiling program test
+** Warning: test.sv(22): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: test.sv(23): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: test.sv(130): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: test.sv(134): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling module assertions
 
@@ -126,19 +144,6 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 Top level modules:
 	--none--
 
-} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv
-QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
--- Compiling package test_sv_unit
--- Importing package trans
--- Importing package gen
--- Importing package driv
--- Importing package mon
--- Importing package scb
--- Compiling program test
-
-Top level modules:
-	test
-
 } {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling package mon
@@ -154,13 +159,21 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 Top level modules:
 	rl_ram_1r1w
 
-} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv {2 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
--- Compiling interface ahb_lite
--- Compiling interface wrapper
--- Compiling module wrap
+-- Compiling package test_sv_unit
+-- Importing package trans
+-- Importing package gen
+-- Importing package driv
+-- Importing package mon
+-- Importing package scb
+-- Compiling program test
+** Warning: C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv(22): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv(23): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv(130): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: C:/questasim64_2021.1/examples/AHB-LITE/sim/test.sv(134): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
 
 Top level modules:
-	wrap
+	test
 
 } {} {}}

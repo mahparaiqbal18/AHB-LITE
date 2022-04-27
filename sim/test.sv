@@ -11,6 +11,7 @@ program test(ahb_lite inf);
  hsize tr_size;
  int wrap_or_incr_size;
  logic addr;
+ transaction tr;
 
   environment env;
   localparam tr_no = 1000;
@@ -18,8 +19,8 @@ program test(ahb_lite inf);
 
  task random();
   forever begin 
-   tr_type = $random;
-   tr_size = $random;
+   std::randomize(tr_type);
+   std::randomize(tr_size);
    wrap_or_incr_size = $random;
    addr = $random;
    env.gen.create_size(tr_type,tr_size,wrap_or_incr_size,read_write);
@@ -87,11 +88,11 @@ program test(ahb_lite inf);
   env.gen.byte_sized_incr4_burst_write();
   env.gen.run();
   if(HTRANS == BUSY) begin
-   tr.HTRANS = SEQ;
+   HTRANS = SEQ;
    while(tr.HREADY != 1)
-    tr.HTRANS = SEQ;
-   tr.HTRANS = SEQ;
-   if(tr.HBURST == SINGLE)
+    HTRANS = SEQ;
+   HTRANS = SEQ;
+   if(HBURST == SINGLE)
     $error("BUSY transfers must only be inserted between successive beats of a burst, this does not apply to SINGLE bursts");
   end
  endtask
@@ -100,11 +101,11 @@ program test(ahb_lite inf);
   env.gen.byte_sized_incr8_burst_write();
   env.gen.run();
   if(HTRANS == BUSY) begin
-   tr.HTRANS = SEQ;
+   HTRANS = SEQ;
    while(tr.HREADY != 1)
-    tr.HTRANS = SEQ;
-   tr.HTRANS = SEQ;
-   if(tr.HBURST == SINGLE)
+    HTRANS = SEQ;
+   HTRANS = SEQ;
+   if(HBURST == SINGLE)
     $error("BUSY transfers must only be inserted between successive beats of a burst, this does not apply to SINGLE bursts");
   end
 endtask
@@ -113,11 +114,11 @@ endtask
   env.gen.byte_sized_incr16_burst_write();
   env.gen.run();
   if(HTRANS == BUSY) begin
-   tr.HTRANS = SEQ;
+   HTRANS = SEQ;
    while(tr.HREADY != 1)
-    tr.HTRANS = SEQ;
-   tr.HTRANS = SEQ;
-   if(tr.HBURST == SINGLE)
+    HTRANS = SEQ;
+   HTRANS = SEQ;
+   if(HBURST == SINGLE)
     $error("BUSY transfers must only be inserted between successive beats of a burst, this does not apply to SINGLE bursts");
   end
 endtask
@@ -126,11 +127,11 @@ endtask
   env.gen.byte_sized_incr_burst_write();
   env.gen.run();
   if(HTRANS == BUSY && HBURST == INCR) begin
-   HTRANS = $random(IDLE, NONSEQ, SEQ);
+   std::randomize(HTRANS) with {HTRANS inside {IDLE, NONSEQ, SEQ};};
    if(HTRANS == IDLE || HTRANS == NONSEQ) begin
     HBURST = INCR4;
     while(tr.HREADY != 1)
-     HTRANS = $random(IDLE, NONSEQ);
+     std::randomize(HTRANS) with {HTRANS inside {IDLE, NONSEQ};};
     HTRANS = SEQ;
    end
    else
@@ -153,7 +154,7 @@ endtask
  task address_change_idle_transfer_incr();
   env.gen.byte_sized_incr_burst_write();
   env.gen.run();
-  if(tr.HTRANS == IDLE) begin
+  if(HTRANS == IDLE) begin
    HTRANS = NONSEQ;
    tr.HADDR  = addr;
    while(tr.HREADY != 1)
@@ -165,7 +166,7 @@ endtask
  task address_change_idle_transfer_incr4();
   env.gen.byte_sized_incr4_burst_write();
   env.gen.run();
-  if(tr.HTRANS == IDLE) begin
+  if(HTRANS == IDLE) begin
    HTRANS = NONSEQ;
    tr.HADDR  = addr;
    while(tr.HREADY != 1)
@@ -177,7 +178,7 @@ endtask
  task address_change_idle_transfer_incr8();
   env.gen.byte_sized_incr8_burst_write();
   env.gen.run();
-  if(tr.HTRANS == IDLE) begin
+  if(HTRANS == IDLE) begin
    HTRANS = NONSEQ;
    tr.HADDR  = addr;
    while(tr.HREADY != 1)
@@ -189,7 +190,7 @@ endtask
  task address_change_idle_transfer_incr16();
   env.gen.byte_sized_incr16_burst_write();
   env.gen.run();
-  if(tr.HTRANS == IDLE) begin
+  if(HTRANS == IDLE) begin
    HTRANS = NONSEQ;
    tr.HADDR  = addr;
    while(tr.HREADY != 1)

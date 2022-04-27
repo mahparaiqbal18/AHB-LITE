@@ -37,8 +37,8 @@ interface ahb_lite(input bit HCLK, HRESETn);
  modport master(input HCLK, HRESETn, HRDATA, HREADY, HRESP, output HADDR, 
  HBURST, HMASTLOCK, HPROT, HSIZE, HTRANS, HWDATA, HWRITE, HSEL); //Driver
 
- modport mon(input HRESETn, HADDR, HBURST, HMASTLOCK, HPROT, HSIZE, 
- HTRANS, HWDATA, HSEL, HRDATA, HREADYOUT, HRESP);               //Monitor
+ modport mon(input HCLK, HRESETn, HADDR, HBURST, HMASTLOCK, HPROT, HSIZE, 
+ HTRANS, HWDATA, HWRITE, HSEL, HRDATA, HREADYOUT, HRESP, HREADY);               //Monitor
 
 
 endinterface
