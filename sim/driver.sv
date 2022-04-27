@@ -1,6 +1,6 @@
 package driv;
 
- import trans::transaction;
+ import trans::*;
 
 class driver;
 
@@ -31,10 +31,10 @@ class driver;
   gen2driv.get(tr);
   if(driver_if.HREADYOUT && !driver_if.HRESP)begin
    driver_if.HADDR  <= tr.HADDR;
-   driver_if.HBURST <= tr.HBURST;
+   driver_if.HBURST <=    HBURST;
    driver_if.HPROT  <= tr.HPROT;
-   driver_if.HSIZE  <= tr.HSIZE;
-   driver_if.HTRANS <= tr.HTRANS;
+   driver_if.HSIZE  <=    HSIZE;
+   driver_if.HTRANS <=    HTRANS;
    driver_if.HWRITE <= tr.HWRITE; 
    driver_if.HREADY <= 1;
    driver_if.HSEL   <= 1;

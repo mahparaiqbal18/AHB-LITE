@@ -1,0 +1,429 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.1 2021.01, Jan 19 2021
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_2021.1/examples/AHB-LITE/sim
+T_opt
+!s11d top_sv_unit C:/questasim64_2021.1/examples/AHB-LITE/sim/work 1 ahb_lite 1 C:/questasim64_2021.1/examples/AHB-LITE/sim/work 
+!s11d mon C:/questasim64_2021.1/examples/AHB-LITE/sim/work 1 ahb_lite 1 C:/questasim64_2021.1/examples/AHB-LITE/sim/work 
+!s11d driv C:/questasim64_2021.1/examples/AHB-LITE/sim/work 1 ahb_lite 1 C:/questasim64_2021.1/examples/AHB-LITE/sim/work 
+!s110 1650574930
+V9<a]HA[9DzVBJi_hXIoZb2
+04 10 4 work assertions fast 0
+=1-b82a72be6e71-6261c64f-4c-f70
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+Xahb
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1650401140
+!i10b 1
+!s100 FlA^8HSGWXN>mkJ]4Eb5N2
+IS1ObPV4nzR^lb?@4gcm;f2
+S1
+R0
+w1650401135
+Z3 8C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv
+Z4 FC:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv
+Z5 Ftransaction.sv
+!i122 51
+Z6 L0 1 0
+VS1ObPV4nzR^lb?@4gcm;f2
+Z7 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1650401140.000000
+!s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv|
+Z8 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv|
+!i113 0
+Z9 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Xahb3lite_pkg
+R2
+!s110 1650476331
+!i10b 1
+!s100 4d]97FJC:>20>7[L<EZ>Y1
+I?`<a^Wd?>D6>8^8@=12;N3
+S1
+R0
+w1650304134
+8C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv
+Z10 FC:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv
+!i122 113
+R6
+V?`<a^Wd?>D6>8^8@=12;N3
+R7
+r1
+!s85 0
+31
+!s108 1650476331.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv|
+!i113 0
+R9
+R1
+vahb3lite_sram1rw
+R2
+DXx4 work 24 ahb3lite_sram1rw_sv_unit 0 22 :OdTi=dafAiOP:ChY<6fX2
+DXx4 work 12 ahb3lite_pkg 0 22 ?`<a^Wd?>D6>8^8@=12;N3
+Z11 !s110 1650476330
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 kAoR]ID_5D6Qe_kL?T3=Y3
+IRigQ48>dS_3nmb`K4AN9A1
+!s105 ahb3lite_sram1rw_sv_unit
+S1
+R0
+Z13 w1650304591
+Z14 8C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv
+Z15 FC:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv
+!i122 112
+L0 72 316
+R7
+31
+Z16 !s108 1650476329.000000
+Z17 !s107 C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv|C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv|
+Z18 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahb3lite_sram1rw.sv|
+!i113 0
+R9
+R1
+Xahb3lite_sram1rw_sv_unit
+R2
+R11
+V:OdTi=dafAiOP:ChY<6fX2
+r1
+!s85 0
+!i10b 1
+!s100 NR:iFPddjeo[?PAhHa=M41
+I:OdTi=dafAiOP:ChY<6fX2
+!i103 1
+S1
+R0
+R13
+R14
+R15
+R10
+!i122 112
+L0 70 0
+R7
+31
+R16
+R17
+R18
+!i113 0
+R9
+R1
+Yahb_lite
+R2
+Z19 DXx4 work 5 trans 0 22 CQLGOA9NDZVhS:^XYD7O[3
+Z20 DXx4 work 3 gen 0 22 aY0:gYjFUcAEI?f@UaDii3
+Z21 DXx4 work 4 driv 0 22 lVT`;d7c]9iifLXc`ab_n0
+Z22 DXx4 work 3 mon 0 22 b_LzBn<EAh:8WH[miMGjG0
+Z23 DXx4 work 3 scb 0 22 1Ae1Abfea[m1U2PeYIo5K3
+Z24 DXx4 work 11 top_sv_unit 0 22 GHfNKEWf?TaadG^e:55Q[3
+Z25 !s110 1650529932
+R12
+r1
+!s85 0
+!i10b 1
+!s100 g?6zL90dF]2?[>GY8bL;d1
+I81GEhdV@m2L5AFA7Rd7TG3
+Z26 !s105 top_sv_unit
+S1
+R0
+Z27 w1650301728
+Z28 8wrapper.sv
+Z29 Fwrapper.sv
+!i122 154
+R6
+R7
+31
+Z30 !s108 1650529932.000000
+Z31 !s107 wrapper.sv|environment.sv|test.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv|
+Z32 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv|
+!i113 0
+R9
+R1
+vassertions
+R2
+!s110 1650574168
+!i10b 1
+!s100 `2KBYg3Al]Dbj]djJSzCn2
+IWFO_?0;gg;J@^FC3QT7g>0
+S1
+R0
+w1650574162
+8C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv
+FC:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv
+!i122 162
+L0 1 9
+R12
+R7
+r1
+!s85 0
+31
+!s108 1650574167.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv|
+!i113 0
+R9
+R1
+Xdriv
+Z33 !s115 ahb_lite
+R2
+R19
+!s110 1650529217
+!i10b 1
+!s100 Pd8>IZ0b:66`X:JaS[l`o2
+IlVT`;d7c]9iifLXc`ab_n0
+S1
+R0
+w1650529207
+Z34 8C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv
+Z35 FC:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv
+!i122 146
+R6
+VlVT`;d7c]9iifLXc`ab_n0
+R7
+r1
+!s85 0
+31
+!s108 1650529217.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv|
+Z36 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv|
+!i113 0
+R9
+R1
+Xdriver_sv_unit
+R33
+R2
+!s110 1650497763
+VW>Yg7;DU>`RDMJ6gE8Hoj2
+r1
+!s85 0
+!i10b 1
+!s100 =oBgD<=Bg0QOS1l=OlNDz0
+IW>Yg7;DU>`RDMJ6gE8Hoj2
+!i103 1
+S1
+R0
+w1650497759
+R34
+R35
+R5
+!i122 140
+R6
+R7
+31
+!s108 1650497763.000000
+!s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/driver.sv|
+R36
+!i113 0
+R9
+R1
+Xenvironment_sv_unit
+R33
+R2
+R19
+Z37 DXx4 work 3 gen 0 22 J=d3zmIUH_`YRaAPaXCei0
+R21
+R22
+R23
+!s110 1650569199
+VI`b3NOLRJ8Ma43Ti3lMz80
+r1
+!s85 0
+!i10b 1
+!s100 DDO^lGoC?^Vh4J:iD`_g`1
+II`b3NOLRJ8Ma43Ti3lMz80
+!i103 1
+S1
+R0
+Z38 w1650529856
+R3
+R4
+!i122 157
+R6
+R7
+31
+!s108 1650569199.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv|
+R8
+!i113 0
+R9
+R1
+Xgen
+R2
+R19
+!s110 1650568518
+!i10b 1
+!s100 =`D]32m2mnCOJ@Ah]@2XN3
+IJ=d3zmIUH_`YRaAPaXCei0
+S1
+R0
+w1650568511
+Z39 8C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
+Z40 FC:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv
+!i122 155
+R6
+VJ=d3zmIUH_`YRaAPaXCei0
+R7
+r1
+!s85 0
+31
+!s108 1650568517.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv|
+Z41 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv|
+!i113 0
+R9
+R1
+Xgenerator_sv_unit
+R2
+!s110 1650497727
+V5e94OWb2l3?GIK2ULYQL>0
+r1
+!s85 0
+!i10b 1
+!s100 IUX_WS=bgi>G`@eGX`^`T2
+I5e94OWb2l3?GIK2ULYQL>0
+!i103 1
+S1
+R0
+Z42 w1650497720
+R39
+R40
+R5
+!i122 139
+R6
+R7
+31
+!s108 1650497727.000000
+!s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/generator.sv|
+R41
+!i113 0
+R9
+R1
+Xmon
+R33
+R2
+R19
+!s110 1650529382
+!i10b 1
+!s100 [PXXbGDjmS[3H_ei57HCY2
+Ib_LzBn<EAh:8WH[miMGjG0
+S1
+R0
+w1650529376
+Z43 8C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
+Z44 FC:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
+!i122 147
+R6
+Vb_LzBn<EAh:8WH[miMGjG0
+R7
+r1
+!s85 0
+31
+!s108 1650529381.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv|
+Z45 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv|
+!i113 0
+R9
+R1
+Xmonitor_sv_unit
+R33
+R2
+!s110 1650483808
+V5CR1^bgcN7G>MnjC=<en51
+r1
+!s85 0
+!i10b 1
+!s100 j=f?:mSmmZcUf:_39N4Vb0
+I5CR1^bgcN7G>MnjC=<en51
+!i103 1
+S1
+R0
+w1650483779
+R43
+R44
+R5
+!i122 135
+R6
+R7
+31
+!s108 1650483808.000000
+!s107 transaction.sv|C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv|
+R45
+!i113 0
+R9
+R1
+vpmi_ram_dp_be
+R2
+Z46 !s110 1650476337
+!i10b 1
+!s100 Yh^e9?:`VngRNiUF1]gU71
+I;J979OQF[lkbm>1NnXKG=0
+S1
+R0
+Z47 w1650304003
+Z48 8C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv
+Z49 FC:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv
+!i122 119
+L0 129 32
+R12
+R7
+r1
+!s85 0
+31
+Z50 !s108 1650476337.000000
+Z51 !s107 C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv|
+Z52 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv|
+!i113 0
+R9
+R1
+vrl_queue
+R2
+!s110 1650476332
+!i10b 1
+!s100 hKWGPRP8RL11ffcB<U`C10
+I<XW6mElKU9^^U3SoD^6CD0
+S1
+R0
+w1650303900
+8C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_queue.sv
+FC:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_queue.sv
+!i122 114
+L0 77 157
+R12
+R7
+r1
+!s85 0
+31
+!s108 1650476332.000000
+!s107 C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_queue.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_queue.sv|
+!i113 0
+R9
+R1
+vrl_ram_1r1w
+R2
+!s110 1650476333
+!i10b 1
+!s100 a9mzJmjhn[>AO?@GOJ4CC3
+IHHDh6gcn2nN[]oVXme?2Q2
+S1
+R0
+w1650304109
+8C

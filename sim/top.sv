@@ -1,5 +1,4 @@
 `include "test.sv"
-`include "wrapper.sv"
 
 module top;
 

@@ -1,27 +1,16 @@
-C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1rw_generic.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1rw_generic.sv
+C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/assertions.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module assertions
+
+Top level modules:
+	assertions
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1rw_generic.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1rw_generic.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling module rl_ram_1rw_generic
 
 Top level modules:
 	rl_ram_1rw_generic
-
-} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/top.sv
-QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
--- Compiling package top_sv_unit
--- Importing package trans
--- Importing package gen
--- Importing package driv
--- Importing package mon
--- Importing package scb
--- Compiling program test
--- Compiling interface ahb_lite
--- Compiling interface wrapper
--- Compiling module wrap
--- Compiling module top
-
-Top level modules:
-	wrap
-	top
 
 } {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/ahblite_pkg.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
@@ -52,14 +41,6 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 Top level modules:
 	rl_ram_1r1w_easic_n3x
 
-} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv
-QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
--- Compiling module rl_ram_1r1w_lattice
--- Compiling module pmi_ram_dp_be
-
-Top level modules:
-	rl_ram_1r1w_lattice
-
 } {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/environment.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling package environment_sv_unit
@@ -71,6 +52,14 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 
 Top level modules:
 	--none--
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w_lattice.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module rl_ram_1r1w_lattice
+-- Compiling module pmi_ram_dp_be
+
+Top level modules:
+	rl_ram_1r1w_lattice
 
 } {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/transaction.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
@@ -150,13 +139,6 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 Top level modules:
 	test
 
-} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w.sv
-QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
--- Compiling module rl_ram_1r1w
-
-Top level modules:
-	rl_ram_1r1w
-
 } {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/monitor.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling package mon
@@ -164,6 +146,13 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 
 Top level modules:
 	--none--
+
+} {} {}} C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/rtl/rl_ram_1r1w.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module rl_ram_1r1w
+
+Top level modules:
+	rl_ram_1r1w
 
 } {} {}} C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_2021.1/examples/AHB-LITE/sim/wrapper.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021

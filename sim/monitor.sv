@@ -1,6 +1,6 @@
 package mon;
 
- import trans::transaction;
+ import trans::*;
 
 class monitor;
 
@@ -16,13 +16,13 @@ class monitor;
 
  task run();
   forever begin
-   if(!mon_inf.HRESP && mon_inf.HREADYOUT) begin
+   if(mon_inf.HREADY) begin
    tr = new();
     tr.HADDR     = mon_inf.HADDR;
-    tr.HBURST    = mon_inf.HBURST;
+       HBURST    = mon_inf.HBURST;
     tr.HPROT     = mon_inf.HPROT;
-    tr.HSIZE     = mon_inf.HSIZE;
-    tr.HTRANS    = mon_inf.HTRANS;
+       HSIZE     = mon_inf.HSIZE;
+       HTRANS    = mon_inf.HTRANS;
     tr.HWDATA    = mon_inf.HWDATA;
     if(mon_inf.HWRITE)begin
      @(posedge mon_inf.HCLK)

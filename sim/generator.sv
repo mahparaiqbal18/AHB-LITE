@@ -1,47 +1,34 @@
 package gen;
 
-import trans::transaction;
+import trans::*;
 
 class generator;
 
  mailbox #(transaction) gen2driv;
  rand transaction tr;
- int tr_count;
+int tr_count;
  event send;
 
  function new(mailbox #(transaction) gen2driv);	
   this.gen2driv = gen2driv;	
  endfunction
 
- localparam BYTE      = 000;
- localparam HALF_WORD = 001;
- localparam WORD      = 010;
-
- localparam SINGLE = 000;
- localparam INCR   = 001;
- localparam WRAP4  = 010;
- localparam INCR4  = 011;
- localparam WRAP8  = 100;
- localparam INCR8  = 101;
- localparam WRAP16 = 110;
- localparam INCR16 = 111;
-
- task create_size(input [2:0] tr_type, input [2:0] tr_size, int wrap_or_incr_size, bit read_write);
+ task create_size(hburst tr_type, hsize tr_size, int wrap_or_incr_size, bit read_write);
   int addr;
-  if(tr_type == 3'b010 || 3'b100 || 3'b110) begin 
+  if(tr_type == WRAP4 || WRAP8 || WRAP16) begin 
    for(int i = 0; i < wrap_or_incr_size; i++) begin
     tr = new;
     if(i == 0) begin
      addr = tr.HADDR;
-     tr.HTRANS = 2'b10; //NONSEQ
+     HTRANS = NONSEQ;
     end
     else begin
      tr.HADDR <= addr + 4;
-     tr.HTRANS <= 2'b11; //SEQ
+     HTRANS <= SEQ;
     end
     tr.HWRITE <= read_write;
-    tr.HBURST <= tr_type;
-    tr.HSIZE <= tr_size;
+    HBURST <= tr_type;
+    HSIZE <= tr_size;
     tr.HPROT <= 4'b0011;
     gen2driv.put(tr);
     tr_count++;
@@ -56,12 +43,12 @@ class generator;
      if(i == 0) begin
       addr <= tr.HADDR;
       start_addr <= tr.HADDR;
-      tr.HTRANS <= 2'b10; //NONSEQ
+      HTRANS <= NONSEQ;
       wrap++;
      end
      else begin
       tr.HADDR <= addr + 4;
-      tr.HTRANS <= 2'b11; //SEQ
+      HTRANS <= SEQ;
       wrap++;
      end
     end
@@ -69,8 +56,8 @@ class generator;
      addr <= start_addr;
      wrap = 0;
     end
-    tr.HSIZE <= tr_size;
-    tr.HBURST <= tr_type;
+    HSIZE <= tr_size;
+    HBURST <= tr_type;
     tr.HWRITE <= read_write;
     tr.HPROT <= 4'b0011;
     gen2driv.put(tr);

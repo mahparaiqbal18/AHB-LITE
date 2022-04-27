@@ -1,4 +1,4 @@
-import trans::transaction;
+import trans::*;
 import gen::generator;
 import driv::driver;
 import mon::monitor;

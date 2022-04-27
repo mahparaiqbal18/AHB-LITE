@@ -22,7 +22,7 @@ class environment;
   mon_scb  = new();
   gen      = new(gen_driv);
   driv     = new(inf, gen_driv);
-  mon      = new(mon_scb, inf);
+  mon      = new(inf, mon_scb);
   scb      = new(mon_scb);
  endfunction
 

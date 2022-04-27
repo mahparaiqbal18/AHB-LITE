@@ -7,7 +7,7 @@ module top;
  bit reset;
 
  initial begin
-   forever #10 clk = ~clk;
+  forever #10 clk = ~clk;
 
   #1 reset = 0;
   #5 reset = 1;
